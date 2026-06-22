@@ -2075,7 +2075,7 @@
 
 # sent_id = a-BLAH_KA_001-d1p3s0
 # text = Oý, jsem trošku odpočila od hlavní těmy ...
-1	Oý	oj	INTJ	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	x	_	SpaceAfter=No
+1	Oý	oj	INTJ	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	trošku	troška	ADV	Db-------------	_	5	advmod	_	_
@@ -3589,109 +3589,109 @@
 
 # sent_id = a-BRY_B8_001-d1p11s0
 # text = 5. Evropa
-1	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	3	numod:gov	_	SpaceAfter=No
+1	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Evropa	Evropa	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p12s0
 # text = 6. Den
-1	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Den	den	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p13s0
 # text = 7. Rozumím
-1	7	7	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	7	7	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Rozumím	rozumí	VERB	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p14s0
 # text = 8. Jídlo
-1	8	8	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	8	8	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Jídlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p15s0
 # text = 9. Učitelka
-1	9	9	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	9	9	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Učitelka	učitelka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p16s0
 # text = 10. Student
-1	10	10	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	10	10	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Student	student	NOUN	NNIXX-----A----	Animacy=Inan|Foreign=Yes|Gender=Masc|NameType=Pro|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p17s0
 # text = 11. Úkol
-1	11	11	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	11	11	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Úkol	úkol	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p18s0
 # text = 12. dlouho
-1	12	12	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	12	12	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	dlouho	Dlou	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p19s0
 # text = 13. Restaurace
-1	13	13	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	13	13	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p20s0
 # text = 14. Francie
-1	14	14	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	14	14	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Francie	Francie	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p21s0
 # text = 15. Žena
-1	15	15	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	15	15	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p22s0
 # text = 16. Česko
-1	16	16	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	16	16	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Česko	Česko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p23s0
 # text = 17. tři
-1	17	17	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	17	17	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	tři	tři	NUM	ClXP1----------	Case=Nom|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p24s0
 # text = 18. chuť
-1	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	chuť	chuť	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p25s0
 # text = 19. Počítač
-1	19	19	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	19	19	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Počítač	počítač	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p26s0
 # text = 20. Práce
-1	20	20	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	20	20	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	Práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Pro|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p27s0
 # text = 21. škola
-1	21	21	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	21	21	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	škola	škola	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p28s0
 # text = 22. čaj
-1	22	22	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	SpaceAfter=No
+1	22	22	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	čaj	čaj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 
@@ -6805,7 +6805,7 @@
 # text = V kostelé si košík s potravinami necháme posvětit.
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	kostelé	kostel	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	_
-3	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	7	exp:pv	_	_
+3	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pv	_	_
 4	košík	košík	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	_	_
 5	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	6	case	_	_
 6	potravinami	potravina	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	4	nmod	_	_
@@ -8563,7 +8563,7 @@
 # text = Ona jé žena v domaci.
 1	Ona	on	PRON	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	jé	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	rootj	_	_
+3	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	domaci	domácí	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -13216,7 +13216,7 @@
 5	objevoval	objevovat	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	kohout	kohout	NOUN	RR--X----------	AdpType=Prep|Foreign=Yes	5	nsubj	_	_
 7	mé	můj	DET	PSFP1-S1------1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
-8	babičky	babička	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Style=Vrnc	6	nnmod	_	SpaceAfter=No
+8	babičky	babička	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|Style=Vrnc	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-HRD_IE_037-d1p1s0
