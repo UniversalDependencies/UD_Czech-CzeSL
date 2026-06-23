@@ -7186,7 +7186,7 @@
 # text = D – Děkuju mockrát panove
 1	D	d	X	AAXXX----1A----	Degree=Pos|Polarity=Pos	3	dep	_	_
 2	–	–	PUNCT	Z:-------------	_	1	punct	_	_
-3	Děkuju	děkuja	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Děkuju	děkovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	mockrát	moc	ADV	Cv-------------	NumType=Mult	3	advmod	_	_
 5	panove	pán	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	3	obj	_	_
 
@@ -7416,10 +7416,10 @@
 
 # sent_id = a-HRD_1S_197-d1p8s0
 # text = Byli jsme 18 měsic mimo U. S. A.
-1	Byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	root	_	_
-2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
+1	Byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
+2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 3	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
-4	měsic	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obl	_	_
+4	měsic	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	_
 5	mimo	mimo	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
 6	U	U	PROPN	AAXXX----1A---8	Abbr=Yes|Degree=Pos|NameType=Com|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -7617,13 +7617,13 @@
 # sent_id = a-HRD_1S_198-d1p5s8
 # text = Aby bylo špapné počasi, byl byste přípraven.
 1	Aby	aby	SCONJ	J,-------------	_	2	mark	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
 3	špapné	špatný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	počasi	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+5	,	,	PUNCT	Z:-------------	_	2	punct	_	_
 6	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 7	byste	být	AUX	Vc-P---2-------	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	8	aux	_	_
-8	přípraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	2	root	_	SpaceAfter=No
+8	přípraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = a-HRD_1S_198-d1p5s9
@@ -7808,11 +7808,11 @@
 
 # sent_id = a-HRD_2B_338-d1p2s4
 # text = Myslím to bude krásne.
-1	Myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	root	_	_
+1	Myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-3	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	krásne	krásný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+3	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	krásne	krásný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	1	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_2C_215-d1p1s0
 # text = Skvělé prázdniny.
@@ -8066,21 +8066,21 @@
 # sent_id = a-HRD_2F_227-d1p3s4
 # text = Když mám hodně volného času ráda cestuju.
 1	Když	když	SCONJ	J,-------------	_	2	mark	_	_
-2	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 3	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	_	_
 4	volného	volný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	času	čas	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	obj	_	_
-6	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	7	xcomp	_	_
-7	cestuju	cestuja	VERB	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	root	_	SpaceAfter=No
-8	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+6	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	7	advcl:pred	_	_
+7	cestuju	cestovat	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
 # sent_id = a-HRD_2G_228-d1p2s0
 # text = Mužu rict – ráda čist.
 1	Mužu	moci	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	rict	říci	VERB	Vf--------A---1	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
-3	–	–	PUNCT	Z:-------------	_	4	punct	_	_
-4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	1	root	_	_
-5	čist	číst	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+3	–	–	PUNCT	Z:-------------	_	5	punct	_	_
+4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	5	advcl:pred	_	_
+5	čist	číst	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_2G_228-d1p4s0
@@ -8092,7 +8092,7 @@
 5	tady	tady	ADV	Db-------------	PronType=Dem	7	advmod	_	_
 6	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	7	xcomp	_	_
 7	vařit	vařit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
-8	Mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	root	_	_
+8	Mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 9	preference	preference	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	8	obj	_	_
 10	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
 11	jidlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	9	nmod	_	_
@@ -8125,25 +8125,25 @@
 # text = ( Taky. ráda jím dobře jídlo !! )
 1	(	(	PUNCT	Z:-------------	_	5	punct	_	_
 2	Taky	také	ADV	Db-------------	_	5	advmod	_	SpaceAfter=No
-3	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	5	xcomp	_	_
 5	jím	jíst	VERB	PPZS7--3-------	Case=Ins|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 6	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	_	_
-7	jídlo	jídnout	VERB	VpNS---XR-AA--1	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	root	_	_
+7	jídlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	5	obj	_	_
 8	!!	!!	PUNCT	Z:-------------	_	5	punct	_	_
 9	)	)	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-HRD_2H_229-d1p2s5
 # text = Ráda jdu do bazén. protože ja potřebuju cvičít.
-1	Ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	2	xcomp	_	_
+1	Ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	2	advcl:pred	_	_
 2	jdu	jít	VERB	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 3	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	bazén	bazén	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	2	obl	_	SpaceAfter=No
-5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 6	protože	protože	SCONJ	J,-------------	_	8	mark	_	_
 7	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	potřebuju	potřebovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	root	_	_
-9	cvičít	cvičit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	obj	_	SpaceAfter=No
+8	potřebuju	potřebovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	cvičít	cvičit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_2H_229-d1p3s1
@@ -8230,14 +8230,14 @@
 # sent_id = a-HRD_2L_233-d1p1s1
 # text = Když jsem v praze často jsem v Internet.
 1	Když	když	SCONJ	J,-------------	_	4	mark	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
-4	praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	0	root	_	_
-5	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	_	_
-6	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+4	praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	8	advcl	_	_
+5	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	_	_
+6	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
-8	Internet	Internet	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Pro,Sur|Number=Sing|Polarity=Pos	4	root	_	SpaceAfter=No
-9	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+8	Internet	Internet	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Pro,Sur|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = a-HRD_2L_233-d1p1s3
 # text = Skoro káždy den volám doma.
@@ -8477,8 +8477,8 @@
 2	ma	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jden	jeden	NUM	ClYS1----------	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	4	nummod	_	_
 4	sin	syn	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	obj	_	_
-5	jmenuise	jmenuis	VERB	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	root	_	_
-6	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	obl	_	SpaceAfter=No
+5	jmenuise	jmenovat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+6	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	5	advcl:pred	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p2s16
@@ -8858,7 +8858,7 @@
 # sent_id = a-HRD_7F_368-d1p1s2
 # text = Lidi jsou otevření.
 1	Lidi	člověk	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	3	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	root	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	otevření	otevřený	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -8990,7 +8990,7 @@
 5	,	,	PUNCT	Z:-------------	_	8	punct	_	_
 6	aby	aby	SCONJ	J,-------------	_	8	mark	_	_
 7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	_
-8	vymysleti	vymyslet	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	4	root	_	_
+8	vymysleti	vymyslet	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	_
 
 # sent_id = a-HRD_A1_135-d1p2s26
 # text = Potom jsme jeli do malécho města {Č|č}ívy.
@@ -10380,10 +10380,10 @@
 
 # sent_id = a-HRD_AZ_178-d1p5s0
 # text = Halo pani pani zapomněli jste kabelku! Jsem ozval ji.
-1	Halo	haló	INTJ	II-------------	_	3	nmod	_	_
-2	pani	paní	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	_
-3	pani	paní	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	obj	_	_
-4	zapomněli	zapomenout	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	root	_	_
+1	Halo	haló	INTJ	II-------------	_	4	discourse	_	_
+2	pani	paní	NOUN	NNFS5-----A----	Case=Voc|Gender=Fem|Number=Sing|Polarity=Pos	4	vocative	_	_
+3	pani	paní	NOUN	NNFS5-----A----	Case=Voc|Gender=Fem|Number=Sing|Polarity=Pos	4	vocative	_	_
+4	zapomněli	zapomenout	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	ccomp	_	_
 5	jste	být	AUX	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 6	kabelku	kabelka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	_	SpaceAfter=No
 7	!	!	PUNCT	Z:-------------	_	4	punct	_	_
@@ -10483,8 +10483,8 @@
 
 # sent_id = a-HRD_BB_005-d1p3s4
 # text = Je mongolština.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	mongolština	mongolština	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	root	_	SpaceAfter=No
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	mongolština	mongolština	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_BB_005-d1p3s6
