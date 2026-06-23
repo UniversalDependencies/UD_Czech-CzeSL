@@ -91,7 +91,7 @@
 1	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 2	Zkusím	zkusit	VERB	VB-S---1P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
-4	pomaličku	pomaličku	ADV	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	advmod	_	_
+4	pomaličku	pomaličku	ADV	Db-------------	Degree=Pos|Polarity=Pos	2	advmod	_	_
 5	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
 6	kážděho	každý	DET	AAIS2----1A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	det	_	_
 7	námětu	námět	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
@@ -106,7 +106,7 @@
 5	23	23	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nmod	_	_
 6	nebude	být	AUX	VB-S---3F-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	moc	moc	ADV	Db-------------	_	8	advmod	_	_
-8	dlouhi	dlouhi	ADJ	AAXXX----1A----	Degree=Pos|NameType=Geo|Polarity=Pos	0	root	_	SpaceAfter=No
+8	dlouhi	dlouhý	ADJ	AAXXX----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Degree=Pos|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = a-AA_AP_001-d1p7s0
@@ -123,13 +123,13 @@
 1	Ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	2	case	_	_
 2	konců	konec	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
 3	roka	rok	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	musim	musim	VERB	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
+4	musim	muset	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	napsat	napsat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
 6	magisterskou	magisterský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
-7	prace	prace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	prace	práce	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 8	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
-9	československo-madarských	československo-madarský	ADJ	AAMP6----1A----	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	_
-10	vztazich	vztazich	PRON	P5XP6--3-------	Case=Loc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	7	nmod	_	_
+9	československo-madarských	československo-maďarský	ADJ	AAMP6----1A----	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	_
+10	vztazich	vztah	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	_	_
 12	1938-1939	1938-1939	NUM	C=-------------	NumForm=Digit|NumType=Card	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -275,10 +275,10 @@
 
 # sent_id = a-BRY_B6_001-d1p4s1
 # text = Nas mince je mexicky peso.
-1	Nas	náš	DET	Db-------------	_	2	det	_	_
+1	Nas	náš	DET	Db-------------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Masc|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	mince	mince	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	mexicky	mexický	ADJ	Dg-------1A----	Degree=Pos|Polarity=Pos	5	amod	_	_
+4	mexicky	mexický	ADJ	Dg-------1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	peso	peso	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -353,7 +353,7 @@
 
 # sent_id = a-HRD_1A_172-d1p2s9
 # text = Lid{á|é} se k sobě nechovají vlídně.
-1	Lid{á|é}	Lid{á|é}	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	5	nsubj	_	_
+1	Lid{á|é}	člověk	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
 3	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	4	case	_	_
 4	sobě	se	PRON	P6-X3----------	Case=Dat|PronType=Prs|Reflex=Yes	5	obl	_	_
@@ -539,7 +539,7 @@
 2	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	cop	_	_
 3	úspěšní	úspěšný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	1	xcomp	_	_
 4	poprvé	poprvé	ADV	Cv-------------	NumType=Ord	3	advmod	_	_
-5	sámi	sám $	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	3	xcomp	_	SpaceAfter=No
+5	sámi	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	3	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-AA_IK_001-d1p2s9
@@ -553,7 +553,7 @@
 # sent_id = a-AA_IK_002-d1p1s0
 # text = Nejdůležitější věcí v životě
 1	Nejdůležitější	důležitý	ADJ	AAFS7----3A----	Case=Ins|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
-2	věcí	věc $ truncated sentence ?	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	věcí	věc	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	životě	život	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
 
