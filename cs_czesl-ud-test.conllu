@@ -3454,15 +3454,16 @@
 
 # sent_id = a-BRY_B5_001-d1p5s7
 # text = Vté době my musíme dodělat naše národní jídlo.
-1	Vté	Vtý	ADP	AAFS6----1A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	case	_	_
-2	době	doba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
-3	my	já	PRON	PP-P1--1-------	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-4	musíme	muset	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	dodělat	dodělat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
-6	naše	můj	DET	PSNS4-P1-------	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
-7	národní	národní	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	_	_
-8	jídlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
-9	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	SpaceAfter=No
+2	té	ten	DET	PDFS6---------- Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	době	doba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	my	já	PRON	PP-P1--1-------	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	musíme	muset	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	dodělat	dodělat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	naše	můj	DET	PSNS4-P1-------	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+8	národní	národní	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	9	amod	_	_
+9	jídlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-BRY_B5_001-d1p5s9
 # text = Jenom oslavíme nározeniny!
