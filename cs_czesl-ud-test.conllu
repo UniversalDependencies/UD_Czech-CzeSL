@@ -155,7 +155,7 @@
 
 # sent_id = a-BLAH_2L_001-d1p2s2
 # text = Jsme z Činy.
-1	Jsme	být	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
 3	Činy	čina	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -284,7 +284,7 @@
 
 # sent_id = a-BRY_B6_001-d1p5s0
 # text = Je my 33 let
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	my	já	PRON	PP-P1--1-------	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	iobj	_	_
 3	33	33	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	_
@@ -503,7 +503,7 @@
 
 # sent_id = a-AA_FM_001-d1p5s7
 # text = bylo mi tam dobře.
-1	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+1	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	_	_
 3	tam	tam	ADV	Db-------------	PronType=Dem	1	advmod	_	_
 4	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	_	SpaceAfter=No
@@ -527,7 +527,7 @@
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 5	prním	první	ADJ	CrNS6----------	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_
 6	místě	místo	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
-7	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	„	„	PUNCT	Z:-------------	_	9	punct	_	SpaceAfter=No
 9	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 10	”	”	PUNCT	Z:-------------	_	9	punct	_	SpaceAfter=No
@@ -1151,7 +1151,7 @@
 # sent_id = a-AA_MU_001-d1p2s2
 # text = Výhod je mnoho.
 1	Výhod	výhoda	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	mnoho	mnoho	DET	Ca--1----------	Case=Nom|NumType=Card|PronType=Ind	1	det:numgov	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -1453,7 +1453,7 @@
 # sent_id = a-AA_SS_002-d1p6s1
 # text = Zatím je to v pořádku.
 1	Zatím	zatím	ADV	Db-------------	_	2	advmod	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	pořádku	pořádek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
@@ -1684,7 +1684,7 @@
 2	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
 3	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	4	case	_	_
 4	třidě	třída	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
-5	byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	jenom	jenom	PART	TT-------------	_	7	advmod:emph	_	_
 7	17	17	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod	_	_
 8	spolužáci	spolužák	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
@@ -1792,7 +1792,7 @@
 
 # sent_id = a-BLAH_DZ_001-d1p2s1
 # text = Jsem Kyrgizstánu.
-1	Jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	Kyrgizstánu	Kyrgizstán	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -1814,7 +1814,7 @@
 1	Rozvod	rozvod	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	rodiču	rodič	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 3	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	cop	_	_
+4	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	cop	_	_
 5	fatalným	fatální	ADJ	AAMS7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	xcomp	_	_
 6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
 7	psychiky	psychika	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
@@ -1836,14 +1836,14 @@
 # sent_id = a-BLAH_DZ_001-d1p4s3
 # text = To je právda!
 1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	právda	pravda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BLAH_DZ_001-d1p4s7
 # text = Praha je moc hezká.
 1	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	moc	moc	ADV	Db-------------	_	4	advmod	_	_
 4	hezká	hezký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -1872,13 +1872,13 @@
 # text = První dni byli nejzajímavejšímí.
 1	První	první	ADJ	CrFS7----------	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	dni	den	NOUN	NNIP7-----A---6	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Style=Coll	4	nsubj	_	_
-3	byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+3	byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 4	nejzajímavejšímí	zajímavý	ADJ	AAIP7----3A----	Animacy=Inan|Case=Ins|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-BLAH_DZ_002-d1p2s3
 # text = Bylí úžasné!
-1	Bylí	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	cop	_	_
+1	Bylí	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	cop	_	_
 2	úžasné	úžasný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -1905,7 +1905,7 @@
 # sent_id = a-BLAH_DZ_002-d1p5s1
 # text = To je nejlepší místo studování češtiny
 1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	nejlepší	dobrý	ADJ	AANS1----3A----	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	místo	místo	NOUN	RR--2----------	AdpType=Prep|Case=Gen	0	root	_	_
 5	studování	studování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -1932,7 +1932,7 @@
 # sent_id = a-BLAH_DZ_002-d1p6s3
 # text = To je fakt.
 1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	fakt	fakt	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -1964,7 +1964,7 @@
 # sent_id = a-BLAH_FC_001-d1p3s1
 # text = Ja jsem devátá.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	devátá	devátý	ADJ	CrFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2035,7 +2035,7 @@
 1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
 2	mě	já	PRON	PH-S2--1-------	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	2	punct	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	nejkraznější	jkrásný	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_
 6	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 7	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
@@ -2068,7 +2068,7 @@
 # text = To je bylo opravdu strašně.
 1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
+3	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 4	opravdu	opravdu	ADV	Db-------------	_	5	advmod	_	_
 5	strašně	strašné	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
@@ -2097,7 +2097,7 @@
 # sent_id = a-BLAH_KA_001-d1p5s0
 # text = To je moje malé essay o sobe.
 1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 4	malé	malý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	_
 5	essay	esej	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
@@ -2120,7 +2120,7 @@
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	_
 5	vůbec	vůbec	ADV	Db-------------	_	7	advmod	_	_
-6	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	stejný	stejný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 8	jaky	jaký	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	advcl	_	_
 9	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
@@ -2187,7 +2187,7 @@
 # text = Architektura Prahy je nejlepší varianta pro malíři.
 1	Architektura	architektura	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	1	nmod	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	nejlepší	dobrý	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	varianta	varianta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
@@ -2208,7 +2208,7 @@
 # sent_id = a-BLAH_LP_001-d1p2s0
 # text = Praha je velmi známá ve světě.
 1	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	velmi	velmi	ADV	Db-------------	_	4	advmod	_	_
 4	známá	známý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 5	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	6	case	_	_
@@ -2218,7 +2218,7 @@
 # sent_id = a-BLAH_LP_001-d1p2s1
 # text = Praha je historické město plné významých památek.
 1	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	historické	historický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	plné	plný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	nmod	_	_
@@ -2233,7 +2233,7 @@
 3	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	3	nmod	_	_
-6	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	příjemný	příjemný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 
 # sent_id = a-BLAH_LP_001-d1p4s1
@@ -2249,7 +2249,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	česku	Česko	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing	3	obl	_	_
 3	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	6	cop	_	_
+4	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	6	cop	_	_
 5	velmí	velmi	ADV	Db-------------	_	6	advmod	_	_
 6	suchý	suchý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -2324,7 +2324,7 @@
 # sent_id = a-BLAH_LP_002-d1p5s1
 # text = Halstadt je male město s velkým obrovským jezerem.
 1	Halstadt	Hallstatt	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	male	malý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	8	case	_	_
@@ -2350,7 +2350,7 @@
 1	Takže	takže	PART	J,-------------	_	5	dep	_	_
 2	příroda	příroda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	tám	tam	ADV	Db-------------	PronType=Dem	5	advmod	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	překrásná	překrásný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -2395,7 +2395,7 @@
 # text = Moje profese je inpektor kvalita.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	profese	profese	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	inpektor	inspektor	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -2453,7 +2453,7 @@
 # text = Včera jsem byla doma!
 1	Včera	včera	ADV	Db-------------	_	3	advmod	_	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	doma	doma	ADV	Db-------------	_	3	advmod	_	SpaceAfter=No
 5	!	!	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2480,7 +2480,7 @@
 # sent_id = a-BRY_A1_001-d1p5s4
 # text = Včera byla hezké počasí.
 1	Včera	včera	ADV	Db-------------	_	4	advmod	_	_
-2	byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+2	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 3	hezké	hezký	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	počasí	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -2520,7 +2520,7 @@
 
 # sent_id = a-BRY_A1_001-d1p7s0
 # text = Jsem z VIETNAMU.
-1	Jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
 3	VIETNAMU	Vietnam	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -2536,7 +2536,7 @@
 # sent_id = a-BRY_A1_001-d1p7s2
 # text = už jsem v česku 2 roky.
 1	už	už	ADV	Db-------------	_	5	advmod	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	česku	Česko	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing	0	root	_	_
 5	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	6	nummod	_	_
@@ -2551,7 +2551,7 @@
 
 # sent_id = a-BRY_A2_001-d1p2s0
 # text = jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso 38 let
-1	jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso	být	VERB	PLXP7----------	Case=Ins|Number=Plur|PronType=Tot	3	cop	_	_
+1	jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso	být	AUX	PLXP7----------	Case=Ins|Number=Plur|PronType=Tot	3	cop	_	_
 2	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	_
 3	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	_
 
@@ -2626,7 +2626,7 @@
 # sent_id = a-BRY_A3_001-d1p2s0
 # text = Ja jsem Adam.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2703,13 +2703,13 @@
 # sent_id = a-BRY_A5_001-d1p2s0
 # text = ja jsem Adam.
 1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BRY_A5_001-d1p4s0
 # text = jsem z VIETNAM
-1	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
 3	VIETNAM	Vietnam	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	0	root	_	_
 
@@ -2759,7 +2759,7 @@
 # sent_id = a-BRY_A6_001-d1p2s0
 # text = ja jsem Adam.
 1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2797,7 +2797,7 @@
 # text = moje otec je dělník.
 1	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	otec	otec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	dělník	dělník	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -2805,7 +2805,7 @@
 # text = moje sestry je studentka.
 1	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	sestry	sestra	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	studentka	studentka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -2910,7 +2910,7 @@
 # sent_id = a-BRY_A9_001-d1p2s0
 # text = To jsem ja.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2923,7 +2923,7 @@
 
 # sent_id = a-BRY_A9_001-d1p2s2
 # text = je mi třicet děvět. let.
-1	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+1	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl	_	_
 3	třicet	třicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	_
 4	děvět	devět	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	SpaceAfter=No
@@ -2977,7 +2977,7 @@
 
 # sent_id = a-BRY_A9_001-d1p2s10
 # text = je mu patnat let.
-1	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	1	obj	_	_
 3	patnat	patnáct	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	4	nummod:gov	_	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
@@ -3020,7 +3020,7 @@
 # sent_id = a-BRY_A9_001-d1p2s15
 # text = To je můj tatinek.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	tatinek	tatínek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3028,7 +3028,7 @@
 # sent_id = a-BRY_A9_001-d1p2s16
 # text = To je moje maminka.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3060,14 +3060,14 @@
 # sent_id = a-BRY_A9_001-d1p3s0
 # text = Ja jsem Adam.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BRY_A9_001-d1p3s1
 # text = ja jsem z Vietnam.
 1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	Vietnam	Vietnam	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3096,7 +3096,7 @@
 # sent_id = a-BRY_B1_001-d1p2s1
 # text = To e naša město.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	e	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	e	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	naša	můj	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3104,7 +3104,7 @@
 # sent_id = a-BRY_B1_001-d1p2s2
 # text = Moncolske $ této větě téměř vůbec nerozumím souv 4 misto 18 kraj.
 1	Moncolske $ této větě téměř vůbec nerozumím	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	6	dep	_	_
-2	souv	být	X	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	_
+2	souv	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	_
 3	4	4	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	misto	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	6	dep	_	_
 5	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	6	nummod:gov	_	_
@@ -3141,7 +3141,7 @@
 # sent_id = a-BRY_B2_001-d1p1s0
 # text = Mongolsko je, hodně.
 1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	2	punct	_	_
 4	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3154,7 +3154,7 @@
 # text = Naměsti jmeno je Suknkaatar.
 1	Naměsti	náměstí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	_
 2	jmeno	jméno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Suknkaatar	Suknkaatar	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -3162,7 +3162,7 @@
 # text = Tsagán sar je od 2.14 do 2.17.
 1	Tsagán	Tsaganý	PROPN	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Variant=Short|VerbForm=Part|Voice=Pass	3	nsubj	_	_
 2	sar	sar	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
 5	2.14	2.14	NUM	C=-------------	NumForm=Digit|NumType=Card	3	obl	_	_
 6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
@@ -3180,7 +3180,7 @@
 # sent_id = a-BRY_B2_001-d1p3s1
 # text = Ja jsem z Mongolska.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	Mongolska	Mongolsko	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3197,7 +3197,7 @@
 # sent_id = a-BRY_B2_001-d1p3s3
 # text = Mongolsko je hodně.
 1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -3211,7 +3211,7 @@
 # sent_id = a-BRY_B2_001-d1p4s0
 # text = Centralní je Ulaanbaatar.
 1	Centralní	centrální	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	Ulaanbaatar	Ulaanbaatar	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
@@ -3222,7 +3222,7 @@
 
 # sent_id = a-BRY_B2_001-d1p5s1
 # text = Je mi sedmnáct.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	_	_
 3	sedmnáct	sedmnáct	NUM	Vf--------A---1	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -3243,7 +3243,7 @@
 # sent_id = a-BRY_B3_001-d1p1s0
 # text = Mongolsko je v azii
 1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	azii	Asie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	0	root	_	_
 
@@ -3308,7 +3308,7 @@
 # sent_id = a-BRY_B3_001-d1p8s0
 # text = Oni jsou ušehni studovat zakladní škola ješte visoky škola.
 1	Oni	on	PRON	PPMP1--3-------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	_
 3	ušehni	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	1	nsubj	_	_
 4	studovat	studovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
 5	zakladní	základní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
@@ -3354,7 +3354,7 @@
 # sent_id = a-BRY_B4_001-d1p5s0
 # text = ja jsem student
 1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	student	student	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = a-BRY_B4_001-d1p6s0
@@ -3366,7 +3366,7 @@
 # sent_id = a-BRY_B4_001-d1p7s0
 # text = ja jsem Programator na Ambasádé
 1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Programator	programátor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Ambasádé	ambasáda	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -3398,14 +3398,14 @@
 # text = Moje země je Mongolska
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	země	země	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Mongolska	Mongolsko	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing	0	root	_	_
 
 # sent_id = a-BRY_B5_001-d1p5s1
 # text = Hlavní mésto je Ulaanbaatar.
 1	Hlavní	hlavní	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	2	amod	_	_
 2	mésto	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Ulaanbaatar	Ulaanbaatar	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -3421,7 +3421,7 @@
 # sent_id = a-BRY_B5_001-d1p5s3
 # text = To je druhy hlavní město v Mongolsk
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	druhy	druhý	ADJ	CrMS1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 4	hlavní	hlavní	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	_
 5	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -3431,7 +3431,7 @@
 # sent_id = a-BRY_B5_001-d1p5s4
 # text = To je prostřed v Asie.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	prostřed	prostřed	ADP	Db-------------	_	5	case	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Asie	Asie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
@@ -3472,7 +3472,7 @@
 2	druhy	druhý	ADJ	CrIS1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 3	velky	velký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	svátek	svátek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	NAADAM	NAADAM	PROPN	AAXXX----1A---8	Abbr=Yes|Degree=Pos|Foreign=Yes	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
@@ -3510,7 +3510,7 @@
 # sent_id = a-BRY_B7_001-d1p3s3
 # text = Ty jsou jako stěný Ceský … jídlo
 1	Ty	ten	PRON	PDFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	7	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 3	jako	jako	SCONJ	J,-------------	_	7	mark	_	_
 4	stěný	stejný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_
 5	Ceský	český	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_
@@ -3520,7 +3520,7 @@
 # sent_id = a-BRY_B8_001-d1p1s0
 # text = Malajsie je hezké počasí staty.
 1	Malajsie	Malajsie	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	hezké	hezký	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	počasí	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	staty	stát	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	dep	_	SpaceAfter=No
@@ -3529,24 +3529,24 @@
 # sent_id = a-BRY_B8_001-d1p2s0
 # text = Já jsem Adam.
 1	Já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BRY_B8_001-d1p3s0
 # text = jsem muž
-1	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	muž	muž	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p4s0
 # text = jsem manažer.
-1	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	manažer	manažer	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-BRY_B8_001-d1p5s0
 # text = Je mi třicet osm (38) let.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	_	_
 3	třicet	třicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	8	nummod:gov	_	_
 4	osm	osm	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	8	nummod:gov	_	_
@@ -3705,7 +3705,7 @@
 # sent_id = a-BRY_B9_001-d1p1s1
 # text = Ja jsem Mongolska.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Mongolska	Mongolsko	PROPN	NNFS1-----A----	Case=Nom|Foreign=Yes|Gender=Fem|NameType=Com|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -3721,7 +3721,7 @@
 # text = Moje rodina je hezka ješte velka.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	hezka	hezký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 5	ješte	ještě	ADV	Db-------------	_	6	advmod:emph	_	_
 6	velka	velký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	dep	_	SpaceAfter=No
@@ -3730,7 +3730,7 @@
 # sent_id = a-BRY_B9_001-d1p1s4
 # text = Mongolska je 3000 million lidi.
 1	Mongolska	Mongolsko	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	3000	3000	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	million	milión	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	lidi	člověk	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
@@ -3741,7 +3741,7 @@
 1	Mongolska	Mongolský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 2	tradični	tradiční	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 3	písenka	píseň	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	hezka	hezký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -3819,7 +3819,7 @@
 
 # sent_id = a-HLA_ADZ_001-d1p3s0
 # text = Bude mí 44 let.
-1	Bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mí	já	PRON	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	iobj	_	_
 3	44	44	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	SpaceAfter=No
@@ -3852,7 +3852,7 @@
 
 # sent_id = a-HLA_B_010-d1p3s0
 # text = Je mi 14 let.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	_	_
 3	14	14	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	SpaceAfter=No
@@ -3879,7 +3879,7 @@
 # sent_id = a-HLA_B_010-d1p4s0
 # text = Já jsem cizinec.
 1	Já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	cizinec	cizinec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -3895,7 +3895,7 @@
 # text = Moje Máma je Eva.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	Máma	máma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -3903,7 +3903,7 @@
 # text = Můj táta je Adam.
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	táta	táta	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -3911,7 +3911,7 @@
 # text = Moje máma je 38 let.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	máma	máma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	iobj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod:gov	_	_
 5	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -3920,7 +3920,7 @@
 # text = Mému tátovi je 39 let.
 1	Mému	můj	DET	PSZS3-S1-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	tátovi	táta	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	39	39	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod:gov	_	_
 5	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -3936,7 +3936,7 @@
 # sent_id = a-HLA_B_010-d1p4s9
 # text = On je v naše tříde.
 1	On	on	PRON	PPYS1--3-------	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 4	naše	můj	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	tříde	třída	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -3945,7 +3945,7 @@
 # sent_id = a-HLA_B_010-d1p4s10
 # text = On je Petr.
 1	On	on	PRON	PPYS1--3-------	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Petr	Petr	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -3973,7 +3973,7 @@
 1	Muj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 2	nejoblibenejši	oblíbený	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	předmet	předmět	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	telocvik	tělocvik	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -4033,7 +4033,7 @@
 # text = Ve škole jsem přesně v osm.
 1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_
 2	škole	škola	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
-3	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	přesně	přesně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	_	_
 5	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
 6	osm	osm	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	2	obl	_	SpaceAfter=No
@@ -4045,7 +4045,7 @@
 2	třicet	třicet	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	3	nummod:gov	_	_
 3	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
 4	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	iobj	_	_
-5	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 6	čtřycet	čtyřicet	NUM	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	nsubj	_	_
 7	čtyřy	čtyři	NUM	ClXP1----------	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	6	nummod:gov	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	5	punct	_	_
@@ -4080,7 +4080,7 @@
 3	hodim	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
 4	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	musim	muset	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	byt	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+6	byt	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
 7	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
 8	škole	škola	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	5	punct	_	_
@@ -4120,7 +4120,7 @@
 3	osme	osmý	ADJ	CrFS6----------	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	2	nmod	_	_
 4	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 5	už	už	ADV	Db-------------	_	6	advmod	_	_
-6	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	domou	doma	ADV	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
@@ -4151,7 +4151,7 @@
 # sent_id = a-HLA_R_005-d1p5s0
 # text = Já budu architektor.
 1	Já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	budu	být	VERB	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	budu	být	AUX	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	architektor	architekt	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -4186,7 +4186,7 @@
 3	rodinu	rodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 4	mojou	můj	DET	PSFS7-S1-------	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	rodinou	rodina	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
-6	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
+6	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
 7	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 8	ta	a	CCONJ	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	cc	_	_
 9	děti	dítě	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
@@ -4301,7 +4301,7 @@
 3	nebojte	bát	VERB	Vi-P---2--N----	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
 4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	3	punct	_	_
-6	Nejsme	být	VERB	VB-P---1P-NA---	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+6	Nejsme	být	AUX	VB-P---1P-NA---	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 7	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	_
 8	opravdového	opravdový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
 9	soudu	soud	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -4318,7 +4318,7 @@
 # sent_id = a-HRD_1B_324-d1p4s1
 # text = Ještě bylo vše najednou prozářeno světlem vědění.
 1	Ještě	ještě	ADV	Db-------------	_	5	advmod	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 3	vše	všechen	DET	PLNS1---------1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj:pass	_	_
 4	najednou	najednou	ADV	Db-------------	_	5	advmod	_	_
 5	prozářeno	prozářený	ADJ	VsNS---XX-AP---	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4380,7 +4380,7 @@
 3	dojem	dojem	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
 5	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo	3	nmod	_	_
-6	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
+6	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 7	poněkud	poněkud	ADV	Db-------------	_	8	advmod:emph	_	_
 8	zvlaštní	zvláštní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
@@ -4426,7 +4426,7 @@
 
 # sent_id = a-HRD_1D_169-d1p7s1
 # text = Je to malá země s velkými možností.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	malá	malý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_
 4	země	země	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -4451,7 +4451,7 @@
 # sent_id = a-HRD_1D_169-d1p11s2
 # text = Jinak jsem zde naprosto spokojený.
 1	Jinak	jinak	PART	Db-------------	_	5	dep	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	zde	zde	ADV	Db-------------	PronType=Dem	2	advmod	_	_
 4	naprosto	naprosto	ADV	Db-------------	_	5	advmod:emph	_	_
 5	spokojený	spokojený	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
@@ -4612,7 +4612,7 @@
 # sent_id = a-HRD_1E_246-d1p2s0
 # text = Čína je jedna z největších států na světě.
 1	Čína	Čína	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	jedna	jeden	NUM	ClFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	0	root	_	_
 4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
 5	největších	velký	ADJ	AAFP2----3A----	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur|Polarity=Pos	6	amod	_	_
@@ -4630,7 +4630,7 @@
 5	milionů	milión	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 6	km2	km2	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
-8	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+8	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 9	zhruba	zhruba	ADV	Db-------------	_	10	advmod:emph	_	_
 10	rozloha	rozloha	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 11	Evropy	Evropa	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -4660,7 +4660,7 @@
 # text = Nejhustější oblast je u přímořských oblastech, kolem 400.
 1	Nejhustější	hustý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	oblast	oblast	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
 5	přímořských	přímořský	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	6	amod	_	_
 6	oblastech	oblast	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
@@ -4674,7 +4674,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 2	centrálních	centrální	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	3	amod	_	_
 3	oblastech	oblast	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	kolem	kolem	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
 6	200	200	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -4708,7 +4708,7 @@
 # text = Nejvyšší hora je Everest na pohoří Himálaj.
 1	Nejvyšší	vysoký	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	hora	hora	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Everest	Everest	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	0	root	_	_
 5	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 6	pohoří	pohoří	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
@@ -4719,7 +4719,7 @@
 # text = Nejdelší řeka je Dlouhá řeka, svou delkou 6300 km.
 1	Nejdelší	dlouhý	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
 2	řeka	řeka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	Dlouhá	Dlouhý	PROPN	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	řeka	řeka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	5	punct	_	_
@@ -4735,7 +4735,7 @@
 2	jazyk	jazyk	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	Číně	Čína	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	čínština	čínština	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
@@ -4751,7 +4751,7 @@
 1	Nejstarší	starý	ADJ	AAIP1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
 2	čínské	čínský	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
 3	znaky	znak	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-4	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+4	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
 6	Shang	Shang	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	7	nmod	_	_
 7	dynastie	dynastie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -4785,7 +4785,7 @@
 1	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 3	říjen	říjen	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	statní	státní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	svátek	svátek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -4815,7 +4815,7 @@
 # text = Obyčejné autobusy jsou levné.
 1	Obyčejné	obyčejný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	2	amod	_	_
 2	autobusy	autobus	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	levné	levný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -4830,7 +4830,7 @@
 # text = Lůžkové autobusy jsou o něco dražší.
 1	Lůžkové	lůžkový	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	2	amod	_	_
 2	autobusy	autobus	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
 5	něco	něco	PRON	PZ--4----------	Case=Acc|PronType=Ind	6	obl:arg	_	_
 6	dražší	drahý	ADJ	AAIP1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
@@ -4849,7 +4849,7 @@
 # text = Expresní autobusy jsou nejdražší.
 1	Expresní	expresní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
 2	autobusy	autobus	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	nejdražší	drahý	ADJ	AAFP1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -4866,7 +4866,7 @@
 # sent_id = a-HRD_1E_368-d1p7s0
 # text = Minibusy jsou pro 20 lidí.
 1	Minibusy	Minibus	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
 4	20	20	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod:gov	_	_
 5	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
@@ -4886,7 +4886,7 @@
 # sent_id = a-HRD_1E_368-d1p7s2
 # text = Jízdné jsou vyšší než u obyčejných autobusů.
 1	Jízdné	Jízdný	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	3	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	vyšší	vysoký	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 4	než	než	SCONJ	J,-------------	_	7	mark	_	_
 5	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
@@ -4906,7 +4906,7 @@
 # sent_id = a-HRD_1E_368-d1p8s2
 # text = Ceny jsou skoro stejné jako u měkkých lůžkových vlaků.
 1	Ceny	cena	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	skoro	skoro	ADV	Db-------------	_	4	advmod:emph	_	_
 4	stejné	stejný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	_
 5	jako	jako	SCONJ	J,-------------	_	9	mark	_	_
@@ -4981,14 +4981,14 @@
 # text = Další možnost je taxi.
 1	Další	další	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	možnost	možnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	taxi	taxi	NOUN	NNNXX-----A----	Gender=Neut	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_1E_368-d1p10s8
 # text = To je motocyklová taxi.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	motocyklová	motocyklový	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	4	amod	_	_
 4	taxi	taxi	NOUN	NNNXX-----A----	Gender=Neut	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -5041,7 +5041,7 @@
 
 # sent_id = a-HRD_1E_374-d1p4s1
 # text = Je efektivní.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	efektivní	efektivní	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -5067,7 +5067,7 @@
 # sent_id = a-HRD_1E_374-d1p4s4
 # text = Vždy je jednosměrné.
 1	Vždy	vždy	ADV	Db-------------	PronType=Tot	3	advmod	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	jednosměrné	jednosměrný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -5137,7 +5137,7 @@
 # text = První kontrola je u brány k nastupišti.
 1	První	první	ADJ	CrFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	kontrola	kontrola	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
 5	brány	brána	NOUN	VsTP---XX-AP---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 6	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	7	case	_	_
@@ -5166,7 +5166,7 @@
 
 # sent_id = a-HRD_1E_374-d1p7s0
 # text = Jsou čtyři třídy ve vlaku.
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	čtyři	čtyři	NUM	ClXP1----------	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	3	nummod	_	_
 3	třídy	třída	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
 4	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	5	case	_	_
@@ -5176,7 +5176,7 @@
 # sent_id = a-HRD_1E_374-d1p7s1
 # text = Nejlepší jsou měkké lůžkové vozy.
 1	Nejlepší	dobrý	ADJ	AAIP1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	měkké	měkký	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_
 4	lůžkové	lůžkový	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_
 5	vozy	vůz	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
@@ -5185,7 +5185,7 @@
 # sent_id = a-HRD_1E_374-d1p7s3
 # text = Matrace jsou měkké.
 1	Matrace	matrace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	měkké	měkký	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -5202,7 +5202,7 @@
 # text = Spodní lůžko je nejdražší.
 1	Spodní	spodní	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
 2	lůžko	lůžko	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	nejdražší	drahý	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -5241,7 +5241,7 @@
 1	Měkké	měkký	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
 2	sedadlové	sedadlový	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
 3	vozy	vůz	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	víc	hodně	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	6	advmod	_	_
 6	místa	místo	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
 7	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
@@ -5250,7 +5250,7 @@
 
 # sent_id = a-HRD_1E_374-d1p9s2
 # text = Jsou pohodlnější sedadla.
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	pohodlnější	pohodlný	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
 3	sedadla	sedadlo	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -5275,7 +5275,7 @@
 # sent_id = a-HRD_1E_375-d1p2s3
 # text = Skiareály jsou uzavřené nejpozději do Velikonoc.
 1	Skiareály	Skiareál	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	uzavřené	uzavřený	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	_
 4	nejpozději	pozdě	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	6	advmod:emph	_	_
 5	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
@@ -5321,7 +5321,7 @@
 6	skiareálů	skiareál	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
 8	republice	republika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
-9	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+9	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 10	uplně	úplně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	_	_
 11	ideální	ideální	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	11	punct	_	_
@@ -5348,7 +5348,7 @@
 # text = V zimě jsou kluziště ve městech.
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	zimě	zima	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	kluziště	kluziště	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 5	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	6	case	_	_
 6	městech	město	NOUN	NNNP6-----A----	Case=Loc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
@@ -5359,7 +5359,7 @@
 1	Český	český	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 2	hokejový	hokejový	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	tým	tým	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	jeden	jeden	NUM	ClYS1----------	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	0	root	_	_
 6	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
 7	nejlepších	dobrý	ADJ	AAMP2----3A----	Animacy=Anim|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	_	_
@@ -5377,14 +5377,14 @@
 # sent_id = a-HRD_1E_375-d1p4s2
 # text = Někdy je sněhový vichr.
 1	Někdy	někdy	ADV	Db-------------	PronType=Ind	2	advmod	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sněhový	sněhový	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	vichr	vichr	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_1E_375-d1p4s3
 # text = Je nebezpeční kvůli spatně viditelnosti.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	nebezpeční	bezpečný	ADJ	AAMP1----1N----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	0	root	_	_
 3	kvůli	kvůli	ADP	RR--3----------	AdpType=Prep|Case=Dat	5	case	_	_
 4	spatně	špatné	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	_	_
@@ -5408,7 +5408,7 @@
 2	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
 3	zimní	zimní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	_	_
 4	sporty	sport	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
-5	nejsou	být	VERB	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	nejsou	být	AUX	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 6	moc	moc	ADV	Db-------------	_	7	advmod	_	_
 7	populární	populární	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
@@ -5446,7 +5446,7 @@
 2	venkově	venkov	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 3	ten	ten	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	rozdíl	rozdíl	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	velký	velký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
@@ -5487,7 +5487,7 @@
 # sent_id = a-HRD_1F_167-d1p4s5
 # text = Proč je tu taková zima?
 1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	tu	tady	ADV	Db------------1	PronType=Dem	2	advmod	_	_
 4	taková	takový	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	zima	zima	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -5513,7 +5513,7 @@
 # text = Pro mě je Česká republika hezkou pohádkou.
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	obl:arg	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 4	Česká	český	PROPN	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	republika	republika	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	hezkou	hezký	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
@@ -5592,7 +5592,7 @@
 # sent_id = a-HRD_1G_308-d1p3s3
 # text = To bylo něco!
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
 3	něco	něco	PRON	PZ--1----------	Case=Nom|PronType=Ind	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -5600,7 +5600,7 @@
 # text = Tak to je muj domácí úkol.
 1	Tak	tak	PART	Db-------------	PronType=Dem	6	dep	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	muj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	domácí	domácí	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	úkol	úkol	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -5640,14 +5640,14 @@
 
 # sent_id = a-HRD_1G_309-d1p2s10
 # text = Byl takový roztomilý.
-1	Byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
+1	Byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
 2	takový	takový	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	roztomilý	roztomilý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_1G_309-d1p3s3
 # text = Je to skvelé, že?
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	skvelé	skvělý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
@@ -5680,7 +5680,7 @@
 # text = Tak to byl muj malý příběh.
 1	Tak	tak	PART	Db-------------	PronType=Dem	6	dep	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
-3	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
+3	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
 4	muj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	malý	malý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	příběh	příběh	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -5728,7 +5728,7 @@
 1	Oslava	oslava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	Nového	nový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	Roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 5	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
 6	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
 7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
@@ -5742,7 +5742,7 @@
 # sent_id = a-HRD_1G_311-d1p1s0
 # text = Jaký je můj největší úspěch v domácích pracích?
 1	Jaký	jaký	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	0	root	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 4	největší	velký	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	úspěch	úspěch	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -5843,7 +5843,7 @@
 # sent_id = a-HRD_1I_241-d1p2s1
 # text = To je malé město vedle Kyjiva na Ukrajině.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	malé	malý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	vedle	vedle	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
@@ -5856,7 +5856,7 @@
 # text = Ve měste jšou asi sto tisíc obyvatel.
 1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_
 2	měste	město	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
-3	jšou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+3	jšou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	asi	asi	PART	TT-------------	_	5	advmod:emph	_	_
 5	sto	sto	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
 6	tisíc	tisíc	NUM	ClXS2----------	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	3	nummod	_	_
@@ -5898,7 +5898,7 @@
 # text = První týden byl vždycky chaotickým.
 1	První	první	ADJ	CrIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
 2	týden	týden	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
+3	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 4	vždycky	vždycky	ADV	Db-------------	_	5	advmod	_	_
 5	chaotickým	chaotický	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
@@ -5919,7 +5919,7 @@
 1	Povinná	povinný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 2	školní	školní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 3	docházka	docházka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-4	byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
+4	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 5	osmiletá	osmiletý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 6	(	(	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
 7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
@@ -6008,7 +6008,7 @@
 # sent_id = a-HRD_1I_243-d1p2s1
 # text = To je velká historická budova.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	velká	velký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 4	historická	historický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	budova	budova	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -6212,7 +6212,7 @@
 2	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	4	det	_	_
 3	podstatných	podstatný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	_	_
 4	faktorů	faktor	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl:arg	_	_
-5	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	zde	zde	ADV	Db-------------	PronType=Dem	0	root	_	_
 7	dále	dále	ADV	Db------------1	_	6	advmod	_	_
 8	jiné	jiný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	nsubj	_	_
@@ -6260,7 +6260,7 @@
 # sent_id = a-HRD_1M_160-d1p2s2
 # text = To je opravdová svoboda!
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	opravdová	opravdový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_
 4	svoboda	svoboda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	Z:-------------	_	4	punct	_	_
@@ -6425,7 +6425,7 @@
 # sent_id = a-HRD_1M_316-d1p2s1
 # text = To je město na jiho-vyhodě Ukrajiny.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	jiho-vyhodě	jihovýchod	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
@@ -6477,7 +6477,7 @@
 # sent_id = a-HRD_1M_316-d1p2s8
 # text = To je největší zdymadlo v Evropě.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	největší	velký	ADJ	AANS1----3A----	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	zdymadlo	zdymadlo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
@@ -6512,7 +6512,7 @@
 1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_
 2	středu	středa	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 3	města	město	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	velký	velký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	prospekt	prospekt	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -6521,7 +6521,7 @@
 # text = Jeho delka je 15 km.
 1	Jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	delka	délka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	15	15	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	_
 5	km	km`kilometr	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -6544,7 +6544,7 @@
 2	dětského	dětský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	věku	věk	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 4	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 6	jakoby	jakoby	ADV	Db-------------	_	8	advmod:emph	_	_
 7	můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	koníček	koníček	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -6703,7 +6703,7 @@
 
 # sent_id = a-HRD_1M_321-d1p5s2
 # text = Je to nejdůležitější svátek pro všechny věřící.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	nejdůležitější	důležitý	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	svátek	svátek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -6729,7 +6729,7 @@
 # text = Příprava věřících je důkladná.
 1	Příprava	příprava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	věřících	věřící	ADJ	AGMP2-----A----	Animacy=Anim|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	nmod	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	důkladná	důkladný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -6768,7 +6768,7 @@
 # sent_id = a-HRD_1M_321-d1p6s6
 # text = Klasika jsou vajíčka vařená ve slupkách, od cibule.
 1	Klasika	klasik	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	vajíčka	vajíčko	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
 4	vařená	vařený	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	3	amod	_	_
 5	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	6	case	_	_
@@ -6953,7 +6953,7 @@
 3	příjezd	příjezd	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
 5	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	3	nmod	_	_
-6	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	_
+6	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	_
 7	okouzlující	okouzlující	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
@@ -6989,7 +6989,7 @@
 2	života	život	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	oproti	oproti	ADP	RR--3----------	AdpType=Prep|Case=Dat	4	case	_	_
 4	Moldávii	Moldávie	PROPN	NNFS3-----A----	Case=Dat|Gender=Fem|NameType=Com|Number=Sing	2	nmod	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 6	nesrovnatelně	srovnatelně	ADV	Dg-------1N----	Degree=Pos|Polarity=Neg	7	advmod	_	_
 7	lepší	dobrý	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
@@ -7195,7 +7195,7 @@
 # text = P – Není zač, pro takovu krasnu ženu. moc rád pomoc.
 1	P	P	X	NNNXX-----A----	Gender=Neut|Polarity=Pos	4	dep	_	_
 2	–	–	PUNCT	Z:-------------	_	1	punct	_	_
-3	Není	být	ADJ	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	Není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	zač	zač	PART	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	9	punct	_	_
 6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	_
@@ -7223,7 +7223,7 @@
 3	Ano	ano	PART	TT-------------	_	7	dep	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	7	punct	_	_
 5	zítra	zítra	ADV	Db-------------	_	7	advmod	_	_
-6	budu	být	VERB	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	budu	být	AUX	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	svobodna	svobodný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
 8	...	...	PUNCT	Z:-------------	_	7	punct	_	_
 
@@ -7480,7 +7480,7 @@
 # text = “ Jaky je hezký den.
 1	“	“	PUNCT	Z:-------------	_	2	punct	_	_
 2	Jaky	jaký	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	0	root	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	hezký	hezký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	den	den	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -7514,7 +7514,7 @@
 
 # sent_id = a-HRD_1S_198-d1p2s7
 # text = Jsem připraven.
-1	Jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	připraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -7564,7 +7564,7 @@
 # sent_id = a-HRD_1S_198-d1p3s4
 # text = Jaký jsem blbec.
 1	Jaký	jaký	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	_
-2	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	blbec	blbec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -7609,7 +7609,7 @@
 
 # sent_id = a-HRD_1S_198-d1p5s7
 # text = Je to moc hezký.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	moc	moc	ADV	Db-------------	_	4	advmod	_	_
 4	hezký	hezký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
@@ -7622,7 +7622,7 @@
 3	špapné	špatný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	počasi	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	2	punct	_	_
-6	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
+6	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 7	byste	být	AUX	Vc-P---2-------	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	8	aux	_	_
 8	přípraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
@@ -7690,9 +7690,9 @@
 
 # sent_id = a-HRD_1Y_367-d1p2s0
 # text = Je to byla svatba meho kamarada.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-3	byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+3	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 4	svatba	svatba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	meho	můj	DET	PSZS2-S1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	kamarada	kamarád	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -7717,7 +7717,7 @@
 1	V	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
 2	10	10	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	_
 3	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
-4	byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
+4	byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 5	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 6	všichní	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	_	_
 7	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
@@ -7762,7 +7762,7 @@
 10	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	_	_
 11	FF	FF	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com	3	nmod	_	_
 12	UK	UK	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com	11	nmod	_	_
-13	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	zajimava	zajímavý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	14	punct	_	_
 
@@ -7775,13 +7775,13 @@
 # sent_id = a-HRD_2B_211-d1p3s5
 # text = To bude Kra
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	Kra	kra	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 
 # sent_id = a-HRD_2B_338-d1p1s0
 # text = Co je pro mně v životě nejduležitejší.
 1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	7	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 3	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
 4	mně	já	PRON	PP-S6--1-------	Case=Loc|Number=Sing|Person=1|PronType=Prs	7	obl:arg	_	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
@@ -7855,7 +7855,7 @@
 
 # sent_id = a-HRD_2C_215-d1p3s3
 # text = Byly to krásné prázdniny.
-1	Byly	být	VERB	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+1	Byly	být	AUX	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	krásné	krásný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	4	amod	_	_
 4	prázdniny	prázdniny	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
@@ -7876,7 +7876,7 @@
 
 # sent_id = a-HRD_2C_215-d1p6s0
 # text = Byli jsme šťastný.
-1	Byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
+1	Byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
 2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	šťastný	šťastný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -7899,7 +7899,7 @@
 # text = Tak to jsou moje vzpomínky na skvělé prázdniny.
 1	Tak	tak	PART	Db-------------	PronType=Dem	5	dep	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	vzpomínky	vzpomínka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
@@ -8019,7 +8019,7 @@
 # sent_id = a-HRD_2E_225-d1p7s5
 # text = Pohřben je na Novém židovském hřbitově v strašnicích.
 1	Pohřben	pohřbený	ADJ	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 4	Novém	nový	PROPN	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 5	židovském	židovský	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
@@ -8059,7 +8059,7 @@
 3	park	park	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	3	nmod	_	_
-6	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	Obora	obora	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	0	root	_	_
 8	Hvězda	hvězda	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	7	punct	_	_
@@ -8205,7 +8205,7 @@
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 2	oblíbený	oblíbený	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	typ	typ	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	životní	životní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	_	_
 6	příběhy	příběh	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -8268,7 +8268,7 @@
 6	zemích	země	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	10	advcl:pred	_	_
 7	každý	každý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
 8	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-9	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	rozmanitější	rozmanitý	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	_	_
 12	poslední	poslední	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	_	_
@@ -8385,7 +8385,7 @@
 1	Život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 3	cizinci	cizinec	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 5	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
 6	hodne	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	_	_
 7	lidi	člověk	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obl:arg	_	_
@@ -8422,7 +8422,7 @@
 # text = Moje Rodina je moc velky.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	Rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	moc	moc	ADV	Db-------------	_	5	advmod	_	_
 5	velky	velký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
@@ -8430,7 +8430,7 @@
 # sent_id = a-HRD_2R_275-d1p2s1
 # text = My jsme deset.
 1	My	já	PRON	PP-P1--1-------	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	jsme	být	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	deset	deset	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -8438,21 +8438,21 @@
 # text = Moje rodina je zejmave.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	zejmave	zajímavý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p2s5
 # text = Eva je nejstaršy.
 1	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	nejstaršy	starý	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p2s7
 # text = Adam je muj bracho.
 1	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	muj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	bracho	brácho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8486,7 +8486,7 @@
 # text = Další seštra je Eva.
 1	Další	další	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
 2	seštra	sestra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -8562,7 +8562,7 @@
 # sent_id = a-HRD_2R_275-d1p2s38
 # text = Ona jé žena v domaci.
 1	Ona	on	PRON	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	jé	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	jé	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	domaci	domácí	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	SpaceAfter=No
@@ -8581,7 +8581,7 @@
 # sent_id = a-HRD_2R_275-d1p2s40
 # text = Ona je moc sdraví.
 1	Ona	on	PRON	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	moc	moc	ADV	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	advmod	_	_
 4	sdraví	zdravá	ADJ	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8591,7 +8591,7 @@
 1	Tak	tak	ADV	Db-------------	PronType=Dem	6	advmod	_	_
 2	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	střasne	strašně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	_	_
 6	vesele	vesele	ADJ	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -8635,14 +8635,14 @@
 2	maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 4	naopak	naopak	ADV	Db-------------	_	5	advmod	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	fantasticky	fantastická	ADJ	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = a-HRD_2S_276-d1p3s1
 # text = Ona je učitelka.
 1	Ona	on	PRON	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	učitelka	učitelka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -8658,7 +8658,7 @@
 # sent_id = a-HRD_2S_276-d1p5s1
 # text = Zacatecas je na severu v Mexiko.
 1	Zacatecas	Zacatecas	PROPN	Db-------------	_	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	severu	sever	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
@@ -8667,7 +8667,7 @@
 
 # sent_id = a-HRD_2S_276-d1p5s3
 # text = Je moc krasne město!
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	moc	moc	ADV	Db-------------	_	3	advmod	_	_
 3	krasne	krásný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -8693,7 +8693,7 @@
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	diploma	diplom	ADJ	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	_
 3	thesis	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 6	česku	český	ADJ	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	_	_
 7	literatuře	literatura	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -8707,7 +8707,7 @@
 # sent_id = a-HRD_2S_382-d1p1s0
 # text = Co je neslušné v mé zemi?
 1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	neslušné	slušný	ADJ	AAMP4----1N----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	0	root	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 5	mé	můj	DET	PSFS6-S1------1	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
@@ -8718,7 +8718,7 @@
 # text = V Mexiko je neslušne:
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	Mexiko	Mexiko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	4	obl	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	neslušne	slušný	ADJ	AAMP4----1N----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -8749,7 +8749,7 @@
 # sent_id = a-HRD_2X_088-d1p1s3
 # text = Adam je můj dobrý kamara
 1	Adam	Adam	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 3	můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 4	dobrý	dobrý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	kamara	kamarád	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -8775,7 +8775,7 @@
 
 # sent_id = a-HRD_2X_088-d1p1s6
 # text = Je hodně hezkej kluk.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	_	_
 3	hezkej	hezký	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	kluk	kluk	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -8783,7 +8783,7 @@
 
 # sent_id = a-HRD_2X_088-d1p1s7
 # text = Je vysokej 170 cm.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	vysokej	vysoký	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
 3	170	170	NUM	C=-------------	NumForm=Digit|NumType=Card	4	amod	_	_
 4	cm	cm`centimetr	NOUN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc	2	nmod	_	SpaceAfter=No
@@ -8817,7 +8817,7 @@
 # text = Můj tatínek byl důstojnikem.
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	tatínek	tatínek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+3	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 4	důstojnikem	důstojník	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -8826,14 +8826,14 @@
 1	Doprava	doprava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 3	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	1	nmod	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	moc	moc	ADV	Db-------------	_	6	advmod	_	_
 6	dobrá	dobrý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = a-HRD_3L_161-d1p9s1
 # text = Je to jen život.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	jen	jen	PART	TT-------------	_	4	advmod:emph	_	_
 4	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -8843,7 +8843,7 @@
 # text = Český život je zajímavý.
 1	Český	český	PROPN	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	zajímavý	zajímavý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -8868,7 +8868,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	5	obl	_	_
 3	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	normální	normální	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -8916,7 +8916,7 @@
 # sent_id = a-HRD_A1_135-d1p2s1
 # text = To bylo v létě.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	létě	léto	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -8924,7 +8924,7 @@
 # sent_id = a-HRD_A1_135-d1p2s7
 # text = To je krásné město.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	krásné	krásný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8953,7 +8953,7 @@
 # sent_id = a-HRD_A1_135-d1p2s15
 # text = To byli obyčejní lidi.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+2	byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 3	obyčejní	obyčejný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	_	_
 4	lidi	člověk	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8961,7 +8961,7 @@
 # sent_id = a-HRD_A1_135-d1p2s19
 # text = Tam byl takový připad.
 1	Tam	tam	ADV	Db-------------	PronType=Dem	4	advmod	_	_
-2	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+2	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 3	takový	takový	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	připad	případ	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8969,7 +8969,7 @@
 # sent_id = a-HRD_A1_135-d1p2s21
 # text = To neni prostě šok!
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	neni	být	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	neni	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	prostě	prostě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod:emph	_	_
 4	šok	šok	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	Z:-------------	_	4	punct	_	_
@@ -8977,7 +8977,7 @@
 # sent_id = a-HRD_A1_135-d1p2s23
 # text = To je něco fantastické.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	něco	něco	PRON	PZ--1----------	Case=Nom|PronType=Ind	0	root	_	_
 4	fantastické	fantastický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -9023,14 +9023,14 @@
 # sent_id = a-HRD_A1_135-d1p2s35
 # text = To je super.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	super	super	ADJ	AAXXX----1A----	Degree=Pos|Foreign=Yes|Polarity=Pos|Style=Coll	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_A1_135-d1p3s0
 # text = To bylo nezapomenutelné.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
 3	nezapomenutelné	zapomenutelný	ADJ	AANS1----1N----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -9047,7 +9047,7 @@
 # sent_id = a-HRD_A1_144-d1p1s0
 # text = To je obyčejný den.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	obyčejný	obyčejný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	den	den	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -9132,7 +9132,7 @@
 # sent_id = a-HRD_A1_217-d1p2s8
 # text = To byl zajimavý tyden.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
+2	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 3	zajimavý	zajímavý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	tyden	týden	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -9159,7 +9159,7 @@
 
 # sent_id = a-HRD_A1_281-d1p2s0
 # text = Je mi jenum 17.
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	_	_
 3	jenum	jenom	PART	TT-------------	_	4	advmod:emph	_	_
 4	17	17	NUM	C=-------------	NumForm=Digit|NumType=Card	1	nsubj	_	SpaceAfter=No
@@ -9201,7 +9201,7 @@
 # text = Určitě to bude zajimávé.
 1	Určitě	určitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-3	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	zajimávé	zajímavý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -9218,7 +9218,7 @@
 1	Možná	možná	ADV	Db-------------	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 3	že	že	SCONJ	J,-------------	_	5	mark	_	_
-4	budu	být	VERB	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	budu	být	AUX	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	učitelkou	učitelka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -9244,7 +9244,7 @@
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 2	materský	mateřský	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	jazyk	jazyk	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	ruština	ruština	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -9289,7 +9289,7 @@
 # text = Ještě chci byt dobrou sestrou.
 1	Ještě	ještě	ADV	Db-------------	_	2	advmod	_	_
 2	chci	chtít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	byt	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	cop	_	_
+3	byt	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	cop	_	_
 4	dobrou	dobrý	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	sestrou	sestra	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -9329,7 +9329,7 @@
 # sent_id = a-HRD_A1_281-d1p3s1
 # text = Co je pro mě v živote nejduležitější čeho b
 1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	7	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 3	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
 4	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	obl:arg	_	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
@@ -9349,7 +9349,7 @@
 # text = Určitě oblačení je duležitá čast nasího života.
 1	Určitě	určitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod:emph	_	_
 2	oblačení	oblečení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	3	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	duležitá	důležitý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	čast	část	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	nasího	můj	DET	PSZS2-P1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
@@ -9422,7 +9422,7 @@
 
 # sent_id = a-HRD_A1_364-d1p1s9
 # text = Bude mi 18.
-1	Bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	_	_
 3	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
@@ -9433,7 +9433,7 @@
 2	Projížďka	Projížděk	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	Vidněm	Vídně	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	SpaceAfter=No
 4	“	“	PUNCT	Z:-------------	_	2	punct	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	historka	historka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	_
 8	XXX	XXX	X	C}-------------	NumForm=Roman|NumType=Card	9	dep	_	_
@@ -9477,7 +9477,7 @@
 # sent_id = a-HRD_AA_062-d1p1s1
 # text = Darek je krasný sameček andulaka.
 1	Darek	dárek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	krasný	krásný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	_
 4	sameček	sameček	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 5	andulaka	andulák	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -9522,7 +9522,7 @@
 # text = Dnes to je oblibeny koniček pro vetšinu lidé.
 1	Dnes	dnes	ADV	Db-------------	_	5	advmod	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	oblibeny	oblíbený	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	koniček	koníček	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
@@ -9551,7 +9551,7 @@
 # text = Na to jsou hodně podminek.
 1	Na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
 2	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+3	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	hodně	hodně	DET	Dg-------1A----	Degree=Pos|NumType=Card|Polarity=Pos|PronType=Ind	5	det:numgov	_	_
 5	podminek	podmínka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -9592,7 +9592,7 @@
 # text = Asi to byl muj nejlepši den.
 1	Asi	asi	PART	TT-------------	_	2	advmod:emph	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
-3	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
+3	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
 4	muj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	nejlepši	dobrý	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	den	den	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -9697,7 +9697,7 @@
 # text = Na petříňe byly mnoho rodin.
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	petříňe	Petřín	PROPN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	3	obl	_	_
-3	byly	být	VERB	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	byly	být	AUX	VpTP---XR-AA---	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	mnoho	mnoho	DET	Ca--1----------	Case=Nom|NumType=Card|PronType=Ind	5	det:numgov	_	_
 5	rodin	rodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -9723,7 +9723,7 @@
 # text = Potom jsme byli n Pražském hradě.
 1	Potom	potom	ADV	Db-------------	_	3	advmod	_	_
 2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	n	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 5	Pražském	pražský	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
 6	hradě	hrad	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -9896,7 +9896,7 @@
 # sent_id = a-HRD_AS_057-d1p1s1
 # text = Už bylo v půlnoci,
 1	Už	už	ADV	Db-------------	_	2	advmod	_	_
-2	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	půlnoci	půlnoc	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	2	punct	_	_
@@ -9964,7 +9964,7 @@
 2	Za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
 3	týden	týden	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
 4	úplně	úplně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	_	_
-5	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 6	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -9993,7 +9993,7 @@
 
 # sent_id = a-HRD_AS_193-d1p3s5
 # text = Byli ve stejné třídě.
-1	Byli	být	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+1	Byli	být	AUX	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	4	case	_	_
 3	stejné	stejný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_
 4	třídě	třída	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
@@ -10679,7 +10679,7 @@
 # text = Rd Kolikátého je dnes?
 1	Rd	Rd	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Kolikátého	Kolikátý	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	1	nmod	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	dnes	dnes	ADV	Db-------------	_	3	advmod	_	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -10795,7 +10795,7 @@
 
 # sent_id = a-HRD_CH_054-d1p1s1
 # text = Jsem s Čini.
-1	Jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	3	case	_	_
 3	Čini	Čína	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
@@ -11099,7 +11099,7 @@
 
 # sent_id = a-HRD_CV_291-d1p2s2
 # text = Je tolik od lišných od sebe zemí!
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	tolik	tolik	ADV	Db-------------	_	7	advmod	_	_
 3	od	odlišný	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	_
 4	lišných	odlišný	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	dep	_	_
@@ -11153,7 +11153,7 @@
 # text = Diky cestování je to tak.
 1	Diky	díky	ADP	RR--3----------	AdpType=Prep|Case=Dat	2	case	_	_
 2	cestování	cestování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 5	tak	tak	ADV	Db-------------	PronType=Dem	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -11292,7 +11292,7 @@
 
 # sent_id = a-HRD_E1_122-d1p2s3
 # text = Nebylo mu moc špatně.
-1	Nebylo	být	VERB	VpNS---XR-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+1	Nebylo	být	AUX	VpNS---XR-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	1	iobj	_	_
 3	moc	moc	ADV	Db-------------	_	1	advmod	_	_
 4	špatně	špatně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	_	SpaceAfter=No
@@ -12234,7 +12234,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 2	jejích	jeho	DET	PSXP6FS3-------	Case=Loc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
 3	hranicích	hranice	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	velké	velký	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_
 6	množství	množství	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 7	hezkých	hezký	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	8	amod	_	_
@@ -12546,7 +12546,7 @@
 
 # sent_id = a-HRD_HO_027-d1p2s1
 # text = Bylo to v dvě hodiny dopoledne.
-1	Bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+1	Bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
 3	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
 4	dvě	dva	NUM	ClHP4----------	Case=Acc|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card	5	nummod	_	_
@@ -13489,7 +13489,7 @@
 2	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
 3	vidně	Vídeň	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
-5	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	7	case	_	_
 7	dcerou	dcera	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
 
@@ -13615,7 +13615,7 @@
 # sent_id = a-HRD_IJ_041-d1p1s0
 # text = Autor je na výletě ve vídeň.
 1	Autor	autor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	výletě	výlet	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
 5	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	6	case	_	_
@@ -13994,7 +13994,7 @@
 # text = Pro mě je těžke koncovky.
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	obl	_	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	těžke	těžký	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	3	amod	_	_
 5	koncovky	koncovka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -14167,7 +14167,7 @@
 
 # sent_id = a-HRD_JK_113-d1p3s1
 # text = Byla jsem v nemocnici.
-1	Byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+1	Byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	nemocnici	nemocnice	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
@@ -14706,7 +14706,7 @@
 2	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 3	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	5	nsubj	_	_
 4	tam	tam	ADV	Db-------------	PronType=Dem	5	advmod	_	_
-5	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 7	“	“	PUNCT	Z:-------------	_	5	punct	_	_
 
