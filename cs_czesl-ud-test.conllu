@@ -2116,7 +2116,7 @@
 # sent_id = a-BLAH_KA_002-d1p2s0
 # text = Můj život v Praze vůbec není stejný jaky byl v Biškeku.
 1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
-2	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	_
 5	vůbec	vůbec	ADV	Db-------------	_	7	advmod	_	_
@@ -2217,7 +2217,7 @@
 
 # sent_id = a-BLAH_LP_001-d1p2s1
 # text = Praha je historické město plné významých památek.
-1	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	2	nsubj	_	_
+1	Praha	Praha	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing	4	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	historické	historický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
 4	město	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -2230,7 +2230,7 @@
 # text = Takže, život v Praze je příjemný
 1	Takže	takže	PART	J,-------------	_	7	dep	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	7	punct	_	_
-3	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	3	nmod	_	_
 6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
@@ -2317,7 +2317,7 @@
 5	anglické	anglický	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_
 6	písmeno	písmeno	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 7	„	„	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
-8	s	s	X	NNNXX-----A----	Gender=Neut|Polarity=Pos	6	nmod	_	SpaceAfter=No
+8	s	s	NOUN	NNNXX-----A----	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
 9	“	“	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -2545,15 +2545,16 @@
 
 # sent_id = a-BRY_A2_001-d1p1s0
 # text = jmenuju se Adam
-1	jmenuju	Jmenovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	jmenuju	jmenovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
 3	Adam	Adam	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	1	obl	_	_
 
 # sent_id = a-BRY_A2_001-d1p2s0
-# text = jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso 38 let
-1	jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso	být	AUX	PLXP7----------	Case=Ins|Number=Plur|PronType=Tot	3	cop	_	_
-2	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod:gov	_	_
-3	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	_
+# text = jemi 38 let
+1	je	být	AUX	PLXP7----------	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
+2	mi	já	PRON	PLXP7----------	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl:arg	_	_
+3	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
+4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	_
 
 # sent_id = a-BRY_A2_001-d1p3s0
 # text = ja bydlím v hotelu název hotelu v pardubicích
