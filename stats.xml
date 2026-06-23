@@ -50,9 +50,9 @@
     <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,VERB,X">1681</feat><!-- to, moje, ja, Adam, můj, rodina, město, já, Eva, život -->
     <feat name="Case" value="Voc" upos="NOUN">4</feat><!-- pani, pane, živote -->
     <feat name="ConjType" value="Oper" upos="ADV,CCONJ">2</feat><!-- krat, krát -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">37</feat><!-- víc, lepší, lepši, starší, Dál, Dříve, Hlubší, NEJDŮLEŽITĚJŠÍ, Nejhustější, Vce -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,DET,INTJ,NOUN,PRON,PROPN,X">886</feat><!-- českou, hodně, české, dobře, hlavní, každý, český, pracovní, skvělé, česky -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV,DET,X">66</feat><!-- nejhorší, nejdůležitější, nejlepší, největší, nejstarší, nejoblíbenější, nejvíc, největších, Nejdelší, Nejdříve -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">36</feat><!-- víc, lepší, lepši, starší, Dál, Dříve, Hlubší, NEJDŮLEŽITĚJŠÍ, Nejhustější, Vce -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">857</feat><!-- českou, hodně, české, dobře, hlavní, český, každý, pracovní, skvělé, česky -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">64</feat><!-- nejhorší, nejdůležitější, nejlepší, největší, nejstarší, nejoblíbenější, největších, Nejdelší, Nejdříve, Nejdůležitejší -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,INTJ,NOUN,PROPN,VERB,X">19</feat><!-- Cervo, Choř{l|t}ica, Hodná, Marbella, Mongolska, Muzeum, NAADAM, Portlandě, Student, UNESCO -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,ADV,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,VERB">1467</feat><!-- praze, rodina, českou, Eva, republiku, české, Praha, ČR, země, republice -->
     <feat name="Gender" value="Fem,Masc" upos="AUX,NOUN,VERB">16</feat><!-- byly, bydlely, neřekly, Videly, bavily, brány, nearly, přišly, skiareály, vlomgly -->
