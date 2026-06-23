@@ -11561,7 +11561,7 @@
 8	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 9	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	_	_
 10	každého	každý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	obl	_	_
-11	svoje	svůj	PRON	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+11	svoje	svůj	DET	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	11	punct	_	_
 
 # sent_id = a-HRD_EA_173-d1p3s1
