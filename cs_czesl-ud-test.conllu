@@ -9106,10 +9106,10 @@
 # text = V přišti krat musite hledat sobě pod nohy“
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 2	přišti	příští	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
-3	krat	krát	ADV	J*-------------	ConjType=Oper	4	advmod	_	_
+3	krat	krát	ADV	J*-------------	_	4	advmod	_	_
 4	musite	muset	VERB	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	hledat	hledat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
-6	sobě	se	PRON	P6-X3----------	Case=Dat|PronType=Prs|Reflex=Yes	5	obj	_	_
+6	sobě	se	PRON	P6-X3----------	Case=Dat|PronType=Prs|Reflex=Yes	5	obl:arg	_	_
 7	pod	pod	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
 8	nohy	noha	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
 9	“	“	PUNCT	Z:-------------	_	4	punct	_	_
@@ -9318,9 +9318,9 @@
 # text = Ještě chci byt dobrou sestrou.
 1	Ještě	ještě	ADV	Db-------------	_	2	advmod	_	_
 2	chci	chtít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	byt	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	cop	_	_
+3	byt	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	5	cop	_	_
 4	dobrou	dobrý	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
-5	sestrou	sestra	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	sestrou	sestra	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_A1_281-d1p2s32
@@ -9347,7 +9347,7 @@
 # sent_id = a-HRD_A1_281-d1p3s0
 # text = můj nejhezči zažitek s pobytu v ČR.
 1	můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
-2	nejhezči	hezký	ADJ	VB-S---3P-NA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	amod	_	_
+2	nejhezči	hezký	ADJ	VB-S---3P-NA---	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
 3	zažitek	zážitek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
 4	s	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
 5	pobytu	pobyt	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -9364,8 +9364,8 @@
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 6	živote	život	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl:arg	_	_
 7	nejduležitější	důležitý	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
-8	čeho	c	PRON	PQ--2----------	Animacy=Inan|Case=Gen|PronType=Int,Rel	7	dep	_	_
-9	b	b	X	NNNXX-----A----	Gender=Neut|Polarity=Pos	7	dep	_	_
+8	čeho	co	PRON	PQ--2----------	Animacy=Inan|Case=Gen|PronType=Int,Rel	7	dep	_	_
+9	b	b	NOUN	NNNXX-----A----	Gender=Neut	7	dep	_	_
 
 # sent_id = a-HRD_A1_281-d1p4s0
 # text = moji plany do budoucna
@@ -9376,8 +9376,8 @@
 
 # sent_id = a-HRD_A1_358-d1p1s0
 # text = Určitě oblačení je duležitá čast nasího života.
-1	Určitě	určitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod:emph	_	_
-2	oblačení	oblečení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	3	nsubj	_	_
+1	Určitě	určitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	_	_
+2	oblačení	oblečení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	duležitá	důležitý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
 5	čast	část	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -9459,14 +9459,14 @@
 # sent_id = a-HRD_AA_042-d1p1s0
 # text = „Projížďka Vidněm“ je historka od XXX WerXXX
 1	„	„	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
-2	Projížďka	Projížděk	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	Vidněm	Vídně	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	SpaceAfter=No
+2	Projížďka	projížďka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Vidněm	Vídeň	PROPN	NNFS7-----A----	Case=Ins|Gender=Fem|NameType=Geo|Number=Sing	2	nmod	_	SpaceAfter=No
 4	“	“	PUNCT	Z:-------------	_	2	punct	_	_
 5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	historka	historka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	_
-8	XXX	XXX	X	C}-------------	NumForm=Roman|NumType=Card	9	dep	_	_
-9	WerXXX	WerXXX	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Pro|Number=Sing	6	obl:arg	_	_
+7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
+8	XXX	XXX	PROPN	C}-------------	_	6	nmod	_	_
+9	WerXXX	WerXXX	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	8	flat	_	_
 
 # sent_id = a-HRD_AA_042-d1p2s1
 # text = Viden historický.
@@ -9525,7 +9525,7 @@
 
 # sent_id = a-HRD_AA_062-d1p4s4
 # text = Papoušek mlial
-1	Papoušek	Papoušek	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	2	nsubj	_	_
+1	Papoušek	papoušek	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	mlial	mlčet	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 
 # sent_id = a-HRD_AA_062-d1p5s1
