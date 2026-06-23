@@ -3688,7 +3688,7 @@
 # text = 20. Práce
 1	20	20	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
-3	Práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Pro|Number=Sing	0	root	_	_
+3	Práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 
 # sent_id = a-BRY_B8_001-d1p27s0
 # text = 21. škola
@@ -3817,7 +3817,11 @@
 
 # sent_id = w-HLA_ADZ_001-d1p1-orphan
 # text = Za třicet let mi bude
-1	Za třicet let mi bude	Za třicet let mi být	X	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Za	za	ADP	VB-S---3F-AA---	AdpType=Prep|Case=Acc	3	case	_	_
+2	třicet	třicet	NUM	VB-S---3F-AA---	NumForm=Word|NumType=Card	3	nummod:gov	_	_
+3	let	rok	NOUN	VB-S---3F-AA---	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+4	mi	já	PRON	VB-S---3F-AA---	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	_
+5	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
 # sent_id = a-HLA_ADZ_001-d1p2s0
 # text = Ma Budoucnost
