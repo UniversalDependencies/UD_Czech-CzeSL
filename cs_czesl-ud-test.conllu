@@ -7493,11 +7493,11 @@
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_1S_198-d1p2s3
-# text = Hraje“ Hamlet.“
-1	Hraje	hrát	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-2	“	“	PUNCT	Z:-------------	_	3	punct	_	_
+# text = Hraje “Hamlet.“
+1	Hraje	hrát	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	“	“	PUNCT	Z:-------------	_	3	punct	_	SpaceAfter=No
 3	Hamlet	Hamlet	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	1	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	Z:-------------	_	3	punct	_	SpaceAfter=No
 5	“	“	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_1S_198-d1p2s4
@@ -7967,7 +7967,7 @@
 4	–	–	PUNCT	Z:-------------	_	3	punct	_	_
 5	Ferdinandové	Ferdinandův	ADJ	AUFS6M---------	Case=Loc|Gender=Fem|Gender[psor]=Masc|NameType=Giv|Number=Sing|Poss=Yes	6	amod	_	_
 6	Univerzitě	univerzita	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+7	,	,	PUNCT	Z:-------------	_	1	punct	_	_
 8	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	_
 9	čeho	co	PRON	PQ--2----------	Animacy=Inan|Case=Gen|PronType=Int,Rel	11	obl:arg	_	_
 10	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	_	_
@@ -8288,7 +8288,7 @@
 9	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	_	_
 10	televizi	televize	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	obl:arg	_	_
 11	děnně	denně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	14	advmod	_	SpaceAfter=No
-12	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+12	,	,	PUNCT	Z:-------------	_	14	punct	_	_
 13	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	14	nummod:gov	_	_
 14	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	8	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	8	punct	_	_
@@ -12439,15 +12439,15 @@
 # sent_id = a-HRD_F7_355-d1p5s0
 # text = Od roku 2009 ( září ) žiju v Praze.
 1	Od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
-2	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	root	_	_
+2	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	_
 3	2009	2009	NUM	C=-------------	NumForm=Digit|NumType=Card	2	nummod	_	_
-4	(	(	PUNCT	Z:-------------	_	2	punct	_	_
-5	září	září	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	dep	_	_
-6	)	)	PUNCT	Z:-------------	_	2	punct	_	_
-7	žiju	žija	VERB	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+4	(	(	PUNCT	Z:-------------	_	5	punct	_	_
+5	září	září	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	parataxis	_	_
+6	)	)	PUNCT	Z:-------------	_	5	punct	_	_
+7	žiju	žít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_
-9	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	7	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+9	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
 # sent_id = a-HRD_F7_387-d1p1s0
 # text = Skvělé prázdniny
