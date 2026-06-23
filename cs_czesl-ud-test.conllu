@@ -8554,7 +8554,7 @@
 # text = Eva má moc práce doma.
 1	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	2	nsubj	_	_
 2	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	moc	moc	ADV	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	advmod	_	_
+3	moc	moc	ADV	NNFS4-----A----	Degree=Pos|Polarity=Pos	4	advmod	_	_
 4	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
 5	doma	doma	ADV	Db-------------	_	2	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -8563,14 +8563,14 @@
 # text = Ja studuju moje doktorat v jiseroamerikanistika studiu v Karlova Univerzita.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	studuju	studovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	moje	můj	DET	PSIP1-S1-------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
-4	doktorat	doktorát	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+3	moje	můj	DET	PSIP4-S1-------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	doktorat	doktorát	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 5	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
-6	jiseroamerikanistika	jihoamerikanistika	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
+6	jiseroamerikanistika	jihoamerikanistika	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 7	studiu	studium	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
-9	Karlova	Karlův	PROPN	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|NameType=Giv|Number=Sing|Poss=Yes	10	amod	_	_
-10	Univerzita	univerzita	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	Karlova	Karlův	ADJ	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|NameType=Giv|Number=Sing|Poss=Yes	10	amod	_	_
+10	Univerzita	univerzita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p2s30
@@ -8583,9 +8583,10 @@
 # sent_id = a-HRD_2R_275-d1p2s37
 # text = Maminka jmenujse Eva.
 1	Maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-2	jmenujse	jmenujse	VERB	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
-3	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	2	obl	_	SpaceAfter=No
-4	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+2	jmenuj	jmenovat	VERB	NNFS2-----A----	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	se	se	PRON	NNFS2-----A----	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pv	_	_
+4	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p2s38
 # text = Ona jé žena v domaci.
