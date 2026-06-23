@@ -34,7 +34,7 @@
     <tag name="X">26</tag><!-- d, P, Popiš svůj běžný den., XXX, Za třicet let mi být, &lt;img kreslený obrázek&gt;, N, aimag, b, být -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="83">
+  <feats unique="82">
     <feat name="Abbr" value="Yes" upos="ADJ,NOUN,NUM,PROPN,X">41</feat><!-- ČR, km, UK, FF, A, ABC, DARKHAN, I, KYB, KyB -->
     <feat name="AdpType" value="Prep" upos="ADP,NOUN">923</feat><!-- v, na, do, s, pro, z, o, od, po, za -->
     <feat name="AdpType" value="Voc" upos="ADP,PRON">54</feat><!-- ve, se, ze, ke -->
@@ -89,7 +89,6 @@
     <feat name="NumType" value="Frac" upos="NOUN,NUM">3</feat><!-- Čeština, Mongolštinová -->
     <feat name="NumType" value="Mult" upos="ADV">10</feat><!-- mockrát, krát, Jeden, Jednou, dvakrát, mnohokrát, několik -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV">43</feat><!-- první, poprvé, druhou, druhy, privním, prvních, prvním, třetí, devátá, deváté -->
-    <feat name="NumValue" value="1,2,3" upos="NOUN,NUM">63</feat><!-- jeden, tři, jedna, dva, dvou, dvě, jednoho, jednu, jedno, obou -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">909</feat><!-- jsem, mám, moje, mi, ja, jsme, mě, můj, budu, já -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">44</feat><!-- jste, vas, vy, vám, Váš, budete, Chcete, Dej, Jdete, Nevěříte -->
     <feat name="Person" value="3" upos="ADJ,AUX,DET,NOUN,PART,PRON,VERB,X">605</feat><!-- je, jsou, má, bude, jmenuje, líbí, mu, jeho, mají, Ona -->
