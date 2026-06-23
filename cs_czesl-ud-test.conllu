@@ -823,11 +823,13 @@
 5	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
 7	kostela	kostel	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-8	aby	aby	SCONJ	J,-------------	_	9	mark	_	_
-9	slavit	slavit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
-10	narozeniny	narozeniny	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
-11	Krista	Kristus	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	10	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+8-9	aby	_	_	_	_	_	_	_	_
+8	aby	aby	SCONJ	J,-------------	_	10	mark	_	_
+9	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	10	aux	_	_
+10	slavit	slavit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+11	narozeniny	narozeniny	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	Krista	Kristus	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-AA_KK_001-d1p9s4
 # text = Přejeme v polsko-těšinským nářečí.
@@ -4266,15 +4268,17 @@
 
 # sent_id = a-HRD_1B_171-d1p7s0
 # text = Abych se tedy vrátit ke znovuobjevování mé vlasti.
-1	Abych	abych	SCONJ	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	mark	_	_
-2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	_
-3	tedy	tedy	ADV	Db-------------	_	4	advmod	_	_
-4	vrátit	vrátit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
-5	ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	6	case	_	_
-6	znovuobjevování	znovuobjevování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	4	obl:arg	_	_
-7	mé	můj	DET	PSFS2-S1------1	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
-8	vlasti	vlast	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+1-2	Abych	_	_	_	_	_	_	_	_
+1	Aby	aby	SCONJ	J,-------------	_	5	mark	_	_
+2	bych	být	AUX	Vc-S---1-------	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	5	aux	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
+4	tedy	tedy	ADV	Db-------------	_	5	advmod	_	_
+5	vrátit	vrátit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
+6	ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	7	case	_	_
+7	znovuobjevování	znovuobjevování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	5	obl:arg	_	_
+8	mé	můj	DET	PSFS2-S1------1	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	vlasti	vlast	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-HRD_1B_171-d1p8s2
 # text = Původní vlast se mi vzdálila.
@@ -7220,20 +7224,22 @@
 
 # sent_id = a-HRD_1Q_177-d1p6s0
 # text = P – Není zač, pro takovu krasnu ženu. moc rád pomoc.
-1	P	P	NOUN	NNNXX-----A----	Gender=Neut	4	dep	_	_
+1	P	P	NOUN	NNNXX-----A----	Gender=Neut	5	dep	_	_
 2	–	–	PUNCT	Z:-------------	_	1	punct	_	_
-3	Není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	zač	zač	ADV	NNIS1-----A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	Z:-------------	_	9	punct	_	_
-6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	_
-7	takovu	takový	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
-8	krasnu	krásný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	_
-9	ženu	žena	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	SpaceAfter=No
-10	.	.	PUNCT	Z:-------------	_	13	punct	_	_
-11	moc	moc	ADV	Ca--X----------	Degree=Pos|Polarity=Pos	12	advmod	_	_
-12	rád	rád	ADJ	ACYS------A----	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	13	advcl:pred	_	_
-13	pomoc	pomoci	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
-14	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+3	Není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4-5	zač	_	_	_	_	_	_	_	SpaceAfter=No
+4	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+5	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	0	root	_	_
+6	,	,	PUNCT	Z:-------------	_	10	punct	_	_
+7	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	_	_
+8	takovu	takový	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+9	krasnu	krásný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	_	_
+10	ženu	žena	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	obl:arg	_	SpaceAfter=No
+11	.	.	PUNCT	Z:-------------	_	14	punct	_	_
+12	moc	moc	ADV	Ca--X----------	Degree=Pos|Polarity=Pos	13	advmod	_	_
+13	rád	rád	ADJ	ACYS------A----	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	14	advcl:pred	_	_
+14	pomoc	pomoci	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-HRD_1Q_177-d1p6s1
 # text = Můžu vas pozvat v restauraci
@@ -7644,15 +7650,17 @@
 
 # sent_id = a-HRD_1S_198-d1p5s8
 # text = Aby bylo špapné počasi, byl byste přípraven.
-1	Aby	aby	SCONJ	J,-------------	_	2	mark	_	_
-2	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
-3	špapné	špatný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
-4	počasi	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Z:-------------	_	2	punct	_	_
-6	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
-7	byste	být	AUX	Vc-P---2-------	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	8	aux	_	_
-8	přípraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
+1-2	Aby	_	_	_	_	_	_	_	_
+1	Aby	aby	SCONJ	J,-------------	_	3	mark	_	_
+2	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	3	aux	_	_
+3	bylo	být	AUX	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	_
+4	špapné	špatný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	_
+5	počasi	počasí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+7	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_
+8	byste	být	AUX	Vc-P---2-------	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	9	aux	_	_
+9	přípraven	připravený	ADJ	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	9	punct	_	_
 
 # sent_id = a-HRD_1S_198-d1p5s9
 # text = Bohužel že, neviděl jste ten kamen na ulici.“
@@ -9017,10 +9025,12 @@
 2	funtaziji	fantazie	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 3	museli	muset	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	mit	mít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-5	,	,	PUNCT	Z:-------------	_	8	punct	_	_
-6	aby	aby	SCONJ	J,-------------	_	8	mark	_	_
-7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	_
-8	vymysleti	vymyslet	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	_
+5	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+6-7	aby	_	_	_	_	_	_	_	_
+6	aby	aby	SCONJ	J,-------------	_	9	mark	_	_
+7	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	9	aux	_	_
+8	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	obj	_	_
+9	vymysleti	vymyslet	VERB	VpMP---XR-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	_
 
 # sent_id = a-HRD_A1_135-d1p2s26
 # text = Potom jsme jeli do malécho města {Č|č}ívy.
@@ -13576,14 +13586,16 @@
 # sent_id = a-HRD_IH_114-d1p3s1
 # text = Takový život je dobře aby dostál vyborná rodina.
 1	Takový	takový	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-4	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	_	_
-5	aby	aby	SCONJ	J,-------------	_	6	mark	_	_
-6	dostál	dostát	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	vyborná	výborný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	_
-8	rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-9	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+2	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+4	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	_	_
+5-6	aby	_	_	_	_	_	_	_	_
+5	aby	aby	SCONJ	J,-------------	_	7	mark	_	_
+6	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	_	_
+7	dostál	dostát	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	vyborná	výborný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	_
+9	rodina	rodina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
 # sent_id = a-HRD_IH_115-d1p1s0
 # text = skvěly prázdniny
