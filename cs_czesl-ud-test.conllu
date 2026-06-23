@@ -7488,7 +7488,7 @@
 5	–	–	PUNCT	Z:-------------	_	6	punct	_	_
 6	XXX	XXX	NOUN	NNXXX------A---	_	3	appos	_	_
 7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
-8	Itálštine	italština	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	6	orphan	_	_
+8	Itálštine	italština	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
 9	–	–	PUNCT	Z:-------------	_	6	punct	_	_
 10	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	_	_
 11	vratila	vrátit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -8611,8 +8611,8 @@
 # text = Ona je moc sdraví.
 1	Ona	on	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	moc	moc	ADV	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	advmod	_	_
-4	sdraví	zdravá	ADJ	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+3	moc	moc	ADV	NNFS1-----A----	Degree=Pos|Polarity=Pos	4	advmod	_	_
+4	sdraví	zdravý	ADJ	NNMS1-----A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_2R_275-d1p3s0
@@ -8652,7 +8652,7 @@
 
 # sent_id = a-HRD_2S_276-d1p2s8
 # text = Tak, neznám ho.
-1	Tak	tak	PART	Db-------------	PronType=Dem	3	dep	_	SpaceAfter=No
+1	Tak	tak	ADV	Db-------------	PronType=Dem	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	3	punct	_	_
 3	neznám	znát	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ho	on	PRON	PHZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	3	obj	_	SpaceAfter=No
@@ -8661,11 +8661,11 @@
 # sent_id = a-HRD_2S_276-d1p3s0
 # text = Moje maminka, naopak je fantasticky.
 1	Moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
-2	maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	Z:-------------	_	5	punct	_	_
-4	naopak	naopak	ADV	Db-------------	_	5	advmod	_	_
+2	maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+4	naopak	naopak	ADV	Db-------------	_	6	advmod	_	_
 5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-6	fantasticky	fantastická	ADJ	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
+6	fantasticky	fantastický	ADJ	Dg-------1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
 # sent_id = a-HRD_2S_276-d1p3s1
@@ -8686,7 +8686,7 @@
 
 # sent_id = a-HRD_2S_276-d1p5s1
 # text = Zacatecas je na severu v Mexiko.
-1	Zacatecas	Zacatecas	PROPN	Db-------------	_	2	nsubj	_	_
+1	Zacatecas	Zacatecas	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	4	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	severu	sever	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
@@ -8719,12 +8719,12 @@
 
 # sent_id = a-HRD_2S_276-d1p7s0
 # text = Můj diploma thesis je o česku literatuře.
-1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
-2	diploma	diplom	ADJ	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	_
-3	thesis	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
+1	Můj	můj	DET	PSYS1-S1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+2	diploma	diploma	NOUN	NNIS1-----A----	Foreign=Yes|Number=Sing	3	compound	_	Lang=en
+3	thesis	thesis	NOUN	NNFS1-----A----	Foreign=Yes|Number=Sing	7	nsubj	_	Lang=en
 4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
-5	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
-6	česku	český	ADJ	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	_	_
+5	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+6	česku	Česko	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
 7	literatuře	literatura	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
@@ -8755,8 +8755,8 @@
 # text = 15: Prst vnikní nos
 1	15	15	NUM	C=-------------	NumForm=Digit|NumType=Card	4	dep	_	SpaceAfter=No
 2	:	:	PUNCT	Z:-------------	_	1	punct	_	_
-3	Prst	prst	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	_
-4	vnikní	vniknout, vniklý	VERB	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
+3	Prst	prst	NOUN	NNMS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	vnikní	vniknout	VERB	NNNS1-----A----	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	nos	nos	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl:arg	_	_
 
 # sent_id = a-HRD_2S_382-d1p20s0
