@@ -711,7 +711,7 @@
 1	Například	například	ADV	Db-------------	_	6	advmod	_	_
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
 3	Izraeli	Izrael	PROPN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	6	obl	_	_
-4	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	5	det:numgov	_	_
+4	více	hodně	DET	Dg-------2A----	Degree=Cmp|NumType=Card|Polarity=Pos|PronType=Ind	5	det:numgov	_	_
 5	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	nsubj	_	_
 6	zemře	zemřít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	kvůli	kvůli	ADP	RR--3----------	AdpType=Prep|Case=Dat	9	case	_	_
@@ -1369,10 +1369,10 @@
 # text = Přesně nevím co pro mě nejdůležitější.
 1	Přesně	přesně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod	_	_
 2	nevím	vědět	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	6	mark	_	_
+3	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	6	nsubj	_	_
 4	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
 5	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	_	_
-6	nejdůležitější	důležitý	ADJ	AAIS4----3A----	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	2	xcomp	_	SpaceAfter=No
+6	nejdůležitější	důležitý	ADJ	AAIS4----3A----	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	2	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-AA_SS_002-d1p1s0
@@ -1886,7 +1886,7 @@
 # text = Ztratili jsme hodně peněz během prvních dvou tydnů.
 1	Ztratili	ztratit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
-3	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	det:numgov	_	_
+3	hodně	hodně	DET	Dg-------1A----	Degree=Pos|NumType=Card|Polarity=Pos|PronType=Ind	4	det:numgov	_	_
 4	peněz	peníze	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	obj	_	_
 5	během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
 6	prvních	první	ADJ	CrIP2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
@@ -5208,7 +5208,7 @@
 # sent_id = a-HRD_1E_374-d1p8s0
 # text = V obou typem lůžkových vozů vymění jízdenku za kovovou cedulku při nástupu.
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
-2	obou	oba	DET	ClXP6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	3	nummod	_	_
+2	obou	oba	NUM	ClXP6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3|PronType=Tot	3	nummod	_	_
 3	typem	typ	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	_
 4	lůžkových	lůžkový	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_
 5	vozů	vůz	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	3	nmod	_	_
@@ -9550,11 +9550,11 @@
 # sent_id = a-HRD_AD_299-d1p4s0
 # text = Na to jsou hodně podminek.
 1	Na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
-2	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	hodně	hodně	DET	Dg-------1A----	Degree=Pos|Polarity=Pos	5	nummod:gov	_	_
-5	podminek	podmínka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+2	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
+3	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	hodně	hodně	DET	Dg-------1A----	Degree=Pos|NumType=Card|Polarity=Pos|PronType=Ind	5	det:numgov	_	_
+5	podminek	podmínka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_AK_102-d1p1s0
 # text = Můj nejhořši den v životě
@@ -13894,7 +13894,7 @@
 3	setkat	setkat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
 4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	_
 5	dnes	dnes	ADV	Db-------------	_	3	advmod	_	_
-6	večeř	večeř	ADV	Db-------------	_	3	advmod	_	SpaceAfter=No
+6	večeř	večer	ADV	Db-------------	_	3	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JJ_175-d1p5s11
@@ -13912,7 +13912,7 @@
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	už	už	ADV	Db-------------	_	4	advmod	_	_
 4	jit	jít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
-5	domu	dům	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	4	advmod	_	SpaceAfter=No
+5	domu	domů	ADV	Db-------------	_	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JJ_175-d1p6s3
