@@ -93,7 +93,7 @@
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">44</feat><!-- jste, vas, vy, vám, Váš, budete, Chcete, Dej, Jdete, Nevěříte -->
     <feat name="Person" value="3" upos="ADJ,AUX,DET,NOUN,PART,PRON,VERB,X">608</feat><!-- je, jsou, má, bude, jmenuje, líbí, mu, jeho, mají, Ona -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">103</feat><!-- nemohla, neměl, nechci, nejsou, nemá, necháme, nejde, nemusí, nemužu, nemám -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADP,ADV,AUX,DET,INTJ,NUM,PART,PRON,VERB,X">2766</feat><!-- je, jsem, mám, ráda, jsme, byl, jsou, budu, hodně, bylo -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADP,ADV,AUX,DET,INTJ,NUM,PART,VERB,X">2762</feat><!-- je, jsem, mám, ráda, jsme, byl, jsou, budu, hodně, bylo -->
     <feat name="Poss" value="Yes" upos="ADJ,DET,PRON,PROPN">202</feat><!-- moje, můj, svou, mé, naše, jeho, muj, své, mém, naša -->
     <feat name="PrepCase" value="Pre" upos="PRON">19</feat><!-- ní, nich, nim, něj, Nej, neho, nij, ním, ně, snej -->
     <feat name="PronType" value="Dem" upos="ADV,CCONJ,DET,PART,PRON">262</feat><!-- to, tak, ten, tady, tam, teď, tento, ona, takový, toho -->
