@@ -238,8 +238,8 @@
 # sent_id = a-BRY_A1_001-d1p3s0
 # text = Zítra bde ponděli.
 1	Zítra	zítra	ADV	Db-------------	_	3	advmod	_	_
-2	bde	bde	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	ponděli	pondět	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	bde	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	ponděli	pondělí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BRY_A1_001-d1p3s1
@@ -4238,10 +4238,10 @@
 
 # sent_id = a-HRD_1B_171-d1p7s0
 # text = Abych se tedy vrátit ke znovuobjevování mé vlasti.
-1	Abych	Abýt	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	_	_
+1	Abych	abych	SCONJ	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	mark	_	_
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	_
 3	tedy	tedy	ADV	Db-------------	_	4	advmod	_	_
-4	vrátit	vrátil	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
+4	vrátit	vrátit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
 5	ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	6	case	_	_
 6	znovuobjevování	znovuobjevování	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	4	obl:arg	_	_
 7	mé	můj	DET	PSFS2-S1------1	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
@@ -14695,7 +14695,7 @@
 1	„	„	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 2	Sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	5	nsubj	_	_
 3	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
-4	je	on	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	je	on	PRON	VB-S---3P-AA---	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	zdvihni	zdvihnout	ADJ	VsMP---XX-AP---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -14763,9 +14763,9 @@
 
 # sent_id = a-HRD_JM_046-d1p12s5
 # text = Tys mě jediný neposlechl.
-1	Tys	ty	AUX	Vc-S---2-------	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin	4	aux	_	_
+1	Tys	ty	PRON	Vc-S---2-------	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obj	_	_
-3	jediný	jediný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	_	_
+3	jediný	jediný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	advcl:pred	_	_
 4	neposlechl	poslechnout	VERB	VpYS---XR-NA--1	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
