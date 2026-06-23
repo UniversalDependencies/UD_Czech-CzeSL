@@ -1608,10 +1608,10 @@
 1	Řikame	říkat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	je	on	PRON	PPXP4--3-------	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
 3	naší	můj	DET	PSFS4-P1------6	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Coll	6	det	_	_
-4	„	„	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
+4	„	„	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
 5	šťástý	šťastný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
-6	bónbony	bonbón	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	7	obj	_	SpaceAfter=No
-7	“	“	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
+6	bónbony	bonbón	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	1	xcomp	_	SpaceAfter=No
+7	“	“	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-BLAH_2L_001-d1p6s0
@@ -5649,8 +5649,8 @@
 1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	skvelé	skvělý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
-5	že	že	PART	J,-------------	_	6	dep	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+5	že	že	PART	J,-------------	_	3	parataxis	_	SpaceAfter=No
 6	?	?	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_1G_309-d1p4s2
@@ -5761,8 +5761,8 @@
 # sent_id = a-HRD_1G_311-d1p2s11
 # text = Divné, že?
 1	Divné	divný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Z:-------------	_	4	punct	_	_
-3	že	že	PART	J,-------------	_	4	dep	_	SpaceAfter=No
+2	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+3	že	že	PART	J,-------------	_	1	parataxis	_	SpaceAfter=No
 4	?	?	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_1G_311-d1p3s0
@@ -14394,10 +14394,10 @@
 # text = Nej nazyvají „svátek jara“.
 1	Nej	on	PRON	P5ZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	2	obj	_	_
 2	nazyvají	nazývat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	„	„	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
-4	svátek	svátek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	6	obj	_	_
+3	„	„	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
+4	svátek	svátek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	xcomp	_	_
 5	jara	jaro	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	4	nmod	_	SpaceAfter=No
-6	“	“	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
+6	“	“	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_JK_220-d1p1s0
