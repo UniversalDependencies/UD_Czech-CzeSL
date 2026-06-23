@@ -76,7 +76,7 @@
 
 # sent_id = a-AA_AP_001-d1p3s0
 # text = he-he-he možná nemá noh?
-1	he-he-he	he-he-he	INTJ	AAXXX----1A----	Foreign=Yes|Polarity=Pos	3	discourse	_	_
+1	he-he-he	he-he-he	INTJ	II-------------	_	3	discourse	_	_
 2	možná	možná	ADV	Db-------------	_	3	advmod	_	_
 3	nemá	mít	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	noh	noha	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
@@ -2075,7 +2075,7 @@
 
 # sent_id = a-BLAH_KA_001-d1p3s0
 # text = Oý, jsem trošku odpočila od hlavní těmy ...
-1	Oý	oj	INTJ	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	discourse	_	SpaceAfter=No
+1	Oý	oj	INTJ	II-------------	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	5	punct	_	_
 3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	trošku	troška	ADV	Db-------------	_	5	advmod	_	_
@@ -10423,13 +10423,13 @@
 
 # sent_id = a-HRD_AZ_178-d1p9s0
 # text = Aha je tu ten princ né.
-1	Aha	Aha	INTJ	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	discourse	_	_
-2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	tu	tady	ADV	Db------------1	PronType=Dem	2	advmod	_	_
+1	Aha	Aha	INTJ	II-------------	_	3	discourse	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	tu	tady	ADV	Db------------1	PronType=Dem	0	root	_	_
 4	ten	ten	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	princ	princ	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-6	né	né	INTJ	TT-------------	_	2	discourse	_	SpaceAfter=No
-7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+5	princ	princ	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	né	né	INTJ	II-------------	_	3	discourse	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_AZ_178-d1p9s1
 # text = To je romantika!
@@ -11285,7 +11285,7 @@
 4	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 6	praci	práce	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
-7	juu	juum	INTJ	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	discourse	_	_
+7	juu	juu	INTJ	II-------------	_	6	discourse	_	_
 8	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
 9	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	6	punct	_	_
@@ -13182,9 +13182,9 @@
 # sent_id = a-HRD_IA_063-d1p2s6
 # text = Neodpověděl také „Nazdar“.
 1	Neodpověděl	odpovědět	VERB	VpYS---XR-NA---	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-2	také	také	ADV	Db-------------	_	4	advmod:emph	_	_
+2	také	také	ADV	Db-------------	_	1	advmod	_	_
 3	„	„	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
-4	Nazdar	Nazdar %% tohle nevim	INTJ	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	obj	_	SpaceAfter=No
+4	Nazdar	nazdar	INTJ	II-------------	_	1	ccomp	_	SpaceAfter=No
 5	“	“	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
@@ -13195,7 +13195,7 @@
 3	řikat	říkat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
 4	jen	jen	PART	TT-------------	_	6	advmod:emph	_	_
 5	„	„	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
-6	Zdar	zdary %%	INTJ	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	3	obj	_	SpaceAfter=No
+6	Zdar	zdar	INTJ	II-------------	_	3	ccomp	_	SpaceAfter=No
 7	“	“	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -13470,7 +13470,7 @@
 
 # sent_id = a-HRD_IH_036-d1p5s0
 # text = Fakt ten den byl jeden z nejtěžších dnů v svém životě.
-1	Fakt	fakt	INTJ	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	dep	_	_
+1	Fakt	fakt	INTJ	II-------------	_	5	discourse	_	_
 2	ten	ten	DET	PDIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
