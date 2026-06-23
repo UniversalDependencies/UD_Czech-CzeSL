@@ -14615,7 +14615,7 @@
 11	ustlaná	ustlaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
 12	hedvábnými	hedvábný	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	_	_
 13	peřinami	peřina	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	11	obl:arg	_	SpaceAfter=No
-14	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+14	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_JM_046-d1p4s0
 # text = O půlnoci ho vzbudil nějaký hluk za dveřmi.
