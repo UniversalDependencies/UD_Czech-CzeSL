@@ -3544,13 +3544,13 @@
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-BRY_B8_001-d1p5s0
-# text = Je mi třicet osm ( 38 ) let.
+# text = Je mi třicet osm (38) let.
 1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	_	_
 3	třicet	třicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	8	nummod:gov	_	_
 4	osm	osm	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	8	nummod:gov	_	_
-5	(	(	PUNCT	Z:-------------	_	6	punct	_	_
-6	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod:gov	_	_
+5	(	(	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
+6	38	38	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod:gov	_	SpaceAfter=No
 7	)	)	PUNCT	Z:-------------	_	6	punct	_	_
 8	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	1	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	1	punct	_	_
@@ -4271,8 +4271,8 @@
 1	?	?	PUNCT	Z:-------------	_	0	root	_	_
 
 # sent_id = a-HRD_1B_171-d1p10s2
-# text = ( stal se ze mě moderní kosmopolitní kosmopolitní člověk.
-1	(	(	PUNCT	Z:-------------	_	2	punct	_	_
+# text = (stal se ze mě moderní kosmopolitní kosmopolitní člověk.
+1	(	(	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
 2	stal	stát	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pv	_	_
 4	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	5	case	_	_
@@ -5458,9 +5458,9 @@
 5	republiku	republika	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	_
 
 # sent_id = a-HRD_1F_167-d1p2s0
-# text = ( Ůvaha )
-1	(	(	PUNCT	Z:-------------	_	2	punct	_	_
-2	Ůvaha	úvaha	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+# text = (Ůvaha)
+1	(	(	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
+2	Ůvaha	úvaha	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 3	)	)	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_1F_167-d1p4s1
@@ -5914,20 +5914,20 @@
 8	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_1I_242-d1p3s10
-# text = Povinná školní docházka byla osmiletá ( od 1. do 9. třídy ).
+# text = Povinná školní docházka byla osmiletá (od 1. do 9. třídy).
 1	Povinná	povinný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 2	školní	školní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
 3	docházka	docházka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	_	_
 4	byla	být	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 5	osmiletá	osmiletý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
-6	(	(	PUNCT	Z:-------------	_	8	punct	_	_
+6	(	(	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
 7	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
 8	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	5	dep	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 10	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	_	_
 11	9	9	NUM	C=-------------	NumForm=Digit|NumType=Card	5	dep	_	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	11	punct	_	_
-13	třídy	třída	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	_	_
+13	třídy	třída	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	_	SpaceAfter=No
 14	)	)	PUNCT	Z:-------------	_	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -6712,15 +6712,15 @@
 8	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_1M_321-d1p5s3
-# text = Paschu předchází dlouhý čtyřicetidenní půst ( Veliký půst ).
+# text = Paschu předchází dlouhý čtyřicetidenní půst (Veliký půst).
 1	Paschu	Pasch	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	2	obj	_	_
 2	předchází	předcházet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	dlouhý	dlouhý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 4	čtyřicetidenní	čtyřicetidenní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
 5	půst	půst	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
-6	(	(	PUNCT	Z:-------------	_	2	punct	_	_
+6	(	(	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
 7	Veliký	veliký	PROPN	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
-8	půst	půst	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	dep	_	_
+8	půst	půst	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	dep	_	SpaceAfter=No
 9	)	)	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -7748,13 +7748,13 @@
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_2B_211-d1p3s1
-# text = Pro mě lekcí ( pl. ) Bohemskou studii v FF UK je zajimava.
+# text = Pro mě lekcí (pl.) Bohemskou studii v FF UK je zajimava.
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	14	obl:arg	_	_
 3	lekcí	lekce	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	14	nsubj	_	_
-4	(	(	PUNCT	Z:-------------	_	5	punct	_	_
+4	(	(	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 5	pl	pl	X	AAXXX----1A---8	Abbr=Yes|Degree=Pos|Foreign=Yes|Polarity=Pos	3	dep	_	SpaceAfter=No
-6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+6	.	.	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 7	)	)	PUNCT	Z:-------------	_	5	punct	_	_
 8	Bohemskou	Bohémský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	_
 9	studii	studie	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	_
@@ -8122,15 +8122,15 @@
 7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_2H_229-d1p2s4
-# text = ( Taky. ráda jím dobře jídlo !! )
-1	(	(	PUNCT	Z:-------------	_	5	punct	_	_
+# text = (Taky. ráda jím dobře jídlo !!)
+1	(	(	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 2	Taky	také	ADV	Db-------------	_	5	advmod	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	5	xcomp	_	_
 5	jím	jíst	VERB	PPZS7--3-------	Case=Ins|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 6	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	_	_
 7	jídlo	jídlo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	5	obj	_	_
-8	!!	!!	PUNCT	Z:-------------	_	5	punct	_	_
+8	!!	!!	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 9	)	)	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-HRD_2H_229-d1p2s5
@@ -10031,17 +10031,17 @@
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_AS_193-d1p5s0
-# text = Mamka pracuje ve firmě zavazadele. ( transportation company? )
+# text = Mamka pracuje ve firmě zavazadele. (transportation company?)
 1	Mamka	Mamek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	2	nsubj	_	_
 2	pracuje	pracovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	4	case	_	_
 4	firmě	firma	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	_	_
 5	zavazadele	zavazadlo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
-7	(	(	PUNCT	Z:-------------	_	8	punct	_	_
+7	(	(	PUNCT	Z:-------------	_	8	punct	_	SpaceAfter=No
 8	transportation	transportation	NOUN	NNXXX-----A----	Foreign=Yes|Polarity=Pos	2	obl	_	_
 9	company	compan	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	_	SpaceAfter=No
-10	?	?	PUNCT	Z:-------------	_	9	punct	_	_
+10	?	?	PUNCT	Z:-------------	_	9	punct	_	SpaceAfter=No
 11	)	)	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = a-HRD_AS_193-d1p5s1
@@ -10055,15 +10055,15 @@
 7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_AS_193-d1p5s4
-# text = ( Jak se řekne česky ten práce? )
-1	(	(	PUNCT	Z:-------------	_	4	punct	_	_
+# text = (Jak se řekne česky ten práce?)
+1	(	(	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
 2	Jak	jak	ADV	Db-------------	PronType=Int,Rel	4	advmod	_	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pass	_	_
 4	řekne	říci	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	česky	česky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	_	_
 6	ten	ten	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj:pass	_	SpaceAfter=No
-8	?	?	PUNCT	Z:-------------	_	4	punct	_	_
+8	?	?	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
 9	)	)	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_AS_193-d1p6s0
@@ -10488,12 +10488,12 @@
 3	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_BB_005-d1p3s6
-# text = To znamená naopak ( rewersel ).
+# text = To znamená naopak (rewersel).
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	znamená	znamenat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	naopak	naopak	ADV	Db-------------	_	2	advmod	_	_
-4	(	(	PUNCT	Z:-------------	_	2	punct	_	_
-5	rewersel	rewerslo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	2	dep	_	_
+4	(	(	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
+5	rewersel	rewerslo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	2	dep	_	SpaceAfter=No
 6	)	)	PUNCT	Z:-------------	_	2	punct	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -11256,8 +11256,8 @@
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_E1_122-d1p1s0
-# text = c ) Rano pan Nekula vůbec neměl chuť na praci.
-1	c	c	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	7	discourse	_	_
+# text = c) Rano pan Nekula vůbec neměl chuť na praci.
+1	c	c	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	7	discourse	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 3	Rano	Raný	ADJ	VsNS---XX-AP---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	obl	_	_
 4	pan	pan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
@@ -11277,8 +11277,8 @@
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_E1_122-d1p2s0
-# text = b ) Byl jsem v praci juu každý den.
-1	b	b	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	6	discourse	_	_
+# text = b) Byl jsem v praci juu každý den.
+1	b	b	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	6	discourse	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 3	Byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	_
 4	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -11323,16 +11323,16 @@
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-HRD_E1_132-d1p1s0
-# text = a ) Z hlediska dámy
-1	a	a	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	4	nmod	_	_
+# text = a) Z hlediska dámy
+1	a	a	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	4	nmod	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	4	punct	_	_
 3	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
 5	dámy	dáma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	_	_
 
 # sent_id = a-HRD_E1_132-d1p3s0
-# text = b ) Z hlediska pána
-1	b	b	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	5	nmod	_	_
+# text = b) Z hlediska pána
+1	b	b	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	5	nmod	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	5	punct	_	_
 3	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	5	obl	_	_
@@ -12436,12 +12436,12 @@
 9	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_F7_355-d1p5s0
-# text = Od roku 2009 ( září ) žiju v Praze.
+# text = Od roku 2009 (září) žiju v Praze.
 1	Od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
 2	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	_
 3	2009	2009	NUM	C=-------------	NumForm=Digit|NumType=Card	2	nummod	_	_
-4	(	(	PUNCT	Z:-------------	_	5	punct	_	_
-5	září	září	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	parataxis	_	_
+4	(	(	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
+5	září	září	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	parataxis	_	SpaceAfter=No
 6	)	)	PUNCT	Z:-------------	_	5	punct	_	_
 7	žiju	žít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_
@@ -12695,8 +12695,8 @@
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_HO_111-d1p1s0
-# text = a ) Připlavil jsem k ruce deštník.
-1	a	a %% what should this be? DEP?	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	3	nmod	_	_
+# text = a) Připlavil jsem k ruce deštník.
+1	a	a %% what should this be? DEP?	NOUN	NNNXX-----A----	Gender=Neut|Polarity=Pos	3	nmod	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	3	punct	_	_
 3	Připlavil	připravit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
@@ -12920,15 +12920,15 @@
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-HRD_HO_226-d1p1s2
-# text = Narodila jsem se v Osace ( dne XXX ).
+# text = Narodila jsem se v Osace (dne XXX).
 1	Narodila	narodit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Osace	Osaka	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	1	obl	_	_
-6	(	(	PUNCT	Z:-------------	_	5	punct	_	_
+6	(	(	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 7	dne	den	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	dep	_	_
-8	XXX	XXX	NUM	C}-------------	NumForm=Roman|NumType=Card	7	nummod	_	_
+8	XXX	XXX	NUM	C}-------------	NumForm=Roman|NumType=Card	7	nummod	_	SpaceAfter=No
 9	)	)	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
@@ -14137,9 +14137,9 @@
 4	noci	noc	NOUN	NNFP7-----A---1	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	1	obl	_	_
 
 # sent_id = a-HRD_JK_113-d1p1s0
-# text = 3. )
+# text = 3.)
 1	3	3	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+2	.	.	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
 3	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_113-d1p1s1
@@ -14159,9 +14159,9 @@
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_113-d1p3s0
-# text = 2. )
+# text = 2.)
 1	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+2	.	.	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
 3	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_113-d1p3s1
@@ -14198,8 +14198,8 @@
 4	:	:	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-HRD_JK_126-d1p1s0
-# text = 1 )
-1	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	_
+# text = 1)
+1	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_126-d1p1s1
@@ -14247,8 +14247,8 @@
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_126-d1p3s0
-# text = 2 )
-1	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	_
+# text = 2)
+1	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-HRD_JK_126-d1p3s1
