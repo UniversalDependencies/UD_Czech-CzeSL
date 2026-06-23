@@ -2562,7 +2562,7 @@
 2	bydlím	bydlet	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	hotelu	hotel	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
-5	název hotelu	(název hotelu)	NOUN	Z:-------------	_	4	dep	_	_
+5	X	X	NOUN	NNXXX-----A----	_	4	nmod	_	Comment=název hotelu
 6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
 7	pardubicích	Pardubice	PROPN	NNFP6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Plur	2	obl	_	_
 
@@ -2768,8 +2768,8 @@
 # text = ja mi dvacet osm let.
 1	ja	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	obl:arg	_	_
-3	dvacet	dvacet	NUM	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	nummod:gov	_	_
-4	osm	osm	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	3	flat	_	_
+3	dvacet	dvacet	NUM	Vf--------A----	NumForm=Word|NumType=Card	5	nummod:gov	_	_
+4	osm	osm	NUM	Cn-S4----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	3	flat	_	_
 5	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
@@ -2925,7 +2925,7 @@
 # sent_id = a-BRY_A9_001-d1p2s2
 # text = je mi třicet děvět. let.
 1	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl	_	_
+2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl:arg	_	_
 3	třicet	třicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	_
 4	děvět	devět	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -2979,7 +2979,7 @@
 # sent_id = a-BRY_A9_001-d1p2s10
 # text = je mu patnat let.
 1	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-2	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	1	obj	_	_
+2	mu	on	PRON	PHZS3--3-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obl:arg	_	_
 3	patnat	patnáct	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	4	nummod:gov	_	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
@@ -3003,7 +3003,7 @@
 
 # sent_id = a-BRY_A9_001-d1p2s13
 # text = každy den chodi do školy.
-1	každy	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	det	_	_
+1	každy	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	det	_	_
 2	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 3	chodi	chodit	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
@@ -3067,7 +3067,7 @@
 
 # sent_id = a-BRY_A9_001-d1p3s1
 # text = ja jsem z Vietnam.
-1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	Vietnam	Vietnam	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
@@ -3103,14 +3103,14 @@
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
 # sent_id = a-BRY_B1_001-d1p2s2
-# text = Moncolske $ této větě téměř vůbec nerozumím souv 4 misto 18 kraj.
-1	Moncolske $ této větě téměř vůbec nerozumím	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	6	dep	_	_
-2	souv	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	_
+# text = Moncolske souv 4 misto 18 kraj.
+1	Moncolske	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	0	root	_	_
+2	souv	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	4	4	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod:gov	_	_
-4	misto	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	6	dep	_	_
+4	misto	město	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
 5	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	6	nummod:gov	_	_
-6	kraj	kraj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+6	kraj	kraj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-BRY_B1_001-d1p2s3
 # text = 3000000 lidy.
@@ -3136,12 +3136,12 @@
 1	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	2	nummod	_	_
 2	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
 3	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod	_	_
-4	mňesic	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	dep	_	SpaceAfter=No
+4	mňesic	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-BRY_B2_001-d1p1s0
 # text = Mongolsko je, hodně.
-1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	2	nsubj	_	_
+1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	4	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	2	punct	_	_
 4	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
@@ -3161,26 +3161,26 @@
 
 # sent_id = a-BRY_B2_001-d1p2s2
 # text = Tsagán sar je od 2.14 do 2.17.
-1	Tsagán	Tsaganý	PROPN	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Number=Sing|Variant=Short|VerbForm=Part|Voice=Pass	3	nsubj	_	_
-2	sar	sar	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
-3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Tsagán	Cagaan	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	sar	sar	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
-5	2.14	2.14	NUM	C=-------------	NumForm=Digit|NumType=Card	3	obl	_	_
+5	2.14	2.14	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	_
 6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
-7	2.17	2.17	NUM	C=-------------	NumForm=Digit|NumType=Card	3	obl	_	SpaceAfter=No
-8	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+7	2.17	2.17	NUM	C=-------------	NumForm=Digit|NumType=Card	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	5	punct	_	_
 
 # sent_id = a-BRY_B2_001-d1p3s0
 # text = Ja jmenuju se Sin.
 1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	jmenuju	jmenovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	se	s	PRON	RV--7----------	AdpType=Voc|Case=Ins	2	expl:pv	_	_
-4	Sin	Sina	PROPN	NNFP2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Plur	2	obl	_	SpaceAfter=No
+3	se	se	PRON	RV--7----------	Case=Acc|PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	Sin	Sin	PROPN	NNFP2-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	2	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-BRY_B2_001-d1p3s1
 # text = Ja jsem z Mongolska.
-1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	Ja	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	Mongolska	Mongolsko	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing	0	root	_	SpaceAfter=No
@@ -3197,7 +3197,7 @@
 
 # sent_id = a-BRY_B2_001-d1p3s3
 # text = Mongolsko je hodně.
-1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	2	nsubj	_	_
+1	Mongolsko	Mongolsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	3	nsubj	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
@@ -3213,7 +3213,7 @@
 # text = Centralní je Ulaanbaatar.
 1	Centralní	centrální	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
-3	Ulaanbaatar	Ulaanbaatar	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	2	nsubj	_	SpaceAfter=No
+3	Ulaanbaatar	Ulaanbaatar	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-BRY_B2_001-d1p5s0
@@ -3224,8 +3224,8 @@
 # sent_id = a-BRY_B2_001-d1p5s1
 # text = Je mi sedmnáct.
 1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	_	_
-3	sedmnáct	sedmnáct	NUM	Vf--------A---1	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	SpaceAfter=No
+2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	obl:arg	_	_
+3	sedmnáct	sedmnáct	NUM	Vf--------A---1	NumForm=Word|NumType=Card	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
 # sent_id = a-BRY_B2_001-d1p6s0
