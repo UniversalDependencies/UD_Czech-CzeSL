@@ -93,7 +93,7 @@
 3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
 4	pomaličku	pomaličku	ADV	Db-------------	Degree=Pos|Polarity=Pos	2	advmod	_	_
 5	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
-6	kážděho	každý	DET	AAIS2----1A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	det	_	_
+6	kážděho	každý	DET	AAIS2----1A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_
 7	námětu	námět	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -106,7 +106,7 @@
 5	23	23	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nmod	_	_
 6	nebude	být	AUX	VB-S---3F-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	moc	moc	ADV	Db-------------	_	8	advmod	_	_
-8	dlouhi	dlouhý	ADJ	AAXXX----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Degree=Pos|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+8	dlouhi	dlouhý	ADJ	AAXXX----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
 
 # sent_id = a-AA_AP_001-d1p7s0
@@ -238,7 +238,7 @@
 # sent_id = a-BRY_A1_001-d1p3s0
 # text = Zítra bde ponděli.
 1	Zítra	zítra	ADV	Db-------------	_	3	advmod	_	_
-2	bde	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	bde	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	ponděli	pondělí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
 
@@ -257,8 +257,8 @@
 # sent_id = a-BRY_B6_001-d1p2s1
 # text = Tam mluvime spanelšky.
 1	Tam	tam	ADV	Db-------------	PronType=Dem	2	advmod	_	_
-2	mluvime	mluvút	VERB	Vi-P---1--A----	Foreign=Yes|Mood=Imp|Number=Plur|Person=1|Polarity=Pos|VerbForm=Fin	0	root	_	_
-3	spanelšky	spanelška	ADV	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	2	advmod	_	SpaceAfter=No
+2	mluvime	mluvit	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	spanelšky	španělsky	ADV	Db-------------	Degree=Pos|Polarity=Pos	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-BRY_B6_001-d1p2s2
@@ -275,7 +275,7 @@
 
 # sent_id = a-BRY_B6_001-d1p4s1
 # text = Nas mince je mexicky peso.
-1	Nas	náš	DET	Db-------------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Masc|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+1	Nas	náš	DET	Db-------------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	mince	mince	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	mexicky	mexický	ADJ	Dg-------1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
@@ -567,7 +567,7 @@
 
 # sent_id = a-AA_IK_002-d1p5s3
 # text = Takže humor.
-1	Takže	takže $	SCONJ	J,-------------	_	2	mark	_	_
+1	Takže	takže	SCONJ	J,-------------	_	2	mark	_	_
 2	humor	humor	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
@@ -575,7 +575,7 @@
 # text = Oba jsou stejné důležité.
 1	Oba	oba	NUM	ClYP1----------	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	4	nsubj	_	_
 2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	stejné	stejný $ $	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	_	_
+3	stejné	stejně	ADV	Db-------------	Degree=Pos|Polarity=Pos	4	advmod	_	_
 4	důležité	důležitý	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
 
@@ -861,7 +861,7 @@
 3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pv	_	_
 5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
-6	výměne	výměna	NOUN	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	obl	_	SpaceAfter=No
+6	výměne	výměna	NOUN	NNFS4------A---	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	_	_
 
 # sent_id = a-AA_KK_002-d1p3s0
@@ -870,11 +870,11 @@
 2	už	už	ADV	Db-------------	_	4	advmod:emph	_	_
 3	jeden	jeden	NUM	ClIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	4	nummod	_	_
 4	semestr	semestr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
-5	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
+5	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
 6	kdy	kdy	ADV	Db-------------	PronType=Int,Rel	7	advmod	_	_
-7	studujun	studujun	VERB	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	4	nmod	_	_
+7	studujun	studovat	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_
-9	UK	UK	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com	7	nmod	_	SpaceAfter=No
+9	UK	UK	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	1	punct	_	_
 
 # sent_id = a-AA_KK_002-d1p3s2
@@ -1536,7 +1536,7 @@
 
 # sent_id = a-BLAH_2L_001-d1p4s5
 # text = Pravě je tak chytré.
-1	Pravě	Prava	ADV	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	4	advmod	_	_
+1	Pravě	právě	ADV	Db-------------	Degree=Pos|Polarity=Pos	4	advmod	_	_
 2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	tak	tak	ADV	Db-------------	PronType=Dem	4	advmod	_	_
 4	chytré	chytrý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
@@ -1749,13 +1749,13 @@
 3	bydlí	bydlet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	Medellínu	Medellín	PROPN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	3	obl	_	SpaceAfter=No
-6	,	,	PUNCT	Z:-------------	_	3	punct	_	_
-7	druhém	druhý	ADJ	CrIS6----------	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
-8	nej	dep	X	AAIS6----3A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	9	dep	_	_
-9	větším	velký, největší	ADJ	AAIS6----3A----	Animacy=Inan|Case=Loc|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_
-10	městě	město	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	Z:-------------	_	10	punct	_	_
+7	druhém	druhý	ADJ	CrIS6----------	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	10	amod	_	_
+8	nej	velký	ADJ	AAIS6----3A----	Case=Loc|Degree=Sup|Gender=Neut|Number=Sing|Polarity=Pos|Typo=Yes	10	amod	_	CorrectForm=největším
+9	větším	_	X	AAIS6----3A----	_	8	goeswith	_	_
+10	městě	město	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	5	appos	_	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	_	_
-12	Kolumbii	Kolumbie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	9	nmod	_	_
+12	Kolumbii	Kolumbie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	10	nmod	_	_
 
 # sent_id = a-BLAH_AC_002-d1p1s0
 # text = Co mi v ČR chybí?
