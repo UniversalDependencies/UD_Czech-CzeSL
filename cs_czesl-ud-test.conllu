@@ -13815,7 +13815,7 @@
 
 # sent_id = a-HRD_JJ_140-d1p3s6
 # text = Mně vas títo!
-1	Mně	já	PRON	PP-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs	0	obl:arg	_	_
+1	Mně	já	PRON	PP-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl:arg	_	_
 2	vas	ty	PRON	PP-P2--2-------	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	obl:arg	_	_
 3	títo	líto	ADV	Db-------------	_	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	Z:-------------	_	3	punct	_	_
