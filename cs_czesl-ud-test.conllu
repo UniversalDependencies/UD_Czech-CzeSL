@@ -13424,7 +13424,7 @@
 # text = Začninu mluvit nejdřiv o rodině.
 1	Začninu	začít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mluvit	mluvit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
-3	nejdřiv	brzy	ADV	Dg-------3A---2	Degree=Sup|Polarity=Pos|Style=Arch	2	advmod	_	_
+3	nejdřiv	brzy	ADV	Dg-------3A---2	Degree=Sup|Polarity=Pos	2	advmod	_	_
 4	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
 5	rodině	rodina	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
