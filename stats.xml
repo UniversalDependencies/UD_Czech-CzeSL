@@ -10,12 +10,12 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1643</sentences><tokens>9935</tokens><words>9935</words><fused>0</fused></test>
   </size>
-  <lemmas unique="1992" /><!-- ., být, v, se, já, na, mít, ten, můj, ,, do, rok, český, on, ? -->
+  <lemmas unique="1989" /><!-- ., být, v, se, já, na, mít, ten, můj, ,, do, rok, český, on, ? -->
   <forms unique="3255" /><!-- ., v, je, jsem, se, na, to, ,, do, ?, mám, moje, s, ráda, moc -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">931</tag><!-- rád, český, velký, dobrý, každý, první, důležitý, hezký, krásný, zajímavý -->
+    <tag name="ADJ">958</tag><!-- český, rád, velký, dobrý, každý, první, důležitý, hezký, krásný, zajímavý -->
     <tag name="ADP">978</tag><!-- v, na, do, s, z, pro, o, od, po, za -->
     <tag name="ADV">680</tag><!-- moc, už, také, proč, hodně, dobře, tak, ještě, tady, velmi -->
     <tag name="AUX">700</tag><!-- být -->
@@ -26,7 +26,7 @@
     <tag name="NUM">284</tag><!-- jeden, 2, 1, dva, 3, tři, 20, 6, XXX, osm -->
     <tag name="PART">57</tag><!-- až, jen, asi, bohužel, jenom, ne, tak, ahoj, takže, ano -->
     <tag name="PRON">570</tag><!-- se, já, on, co, ten, něco, ty, nic, s, všechen -->
-    <tag name="PROPN">443</tag><!-- Praha, Adam, Eva, český, Mongolsko, ČR, Vídeň, Evropa, Pardubice, čína -->
+    <tag name="PROPN">416</tag><!-- Praha, Adam, Eva, Mongolsko, ČR, Vídeň, Evropa, Pardubice, čína, Vietnam -->
     <tag name="PUNCT">1660</tag><!-- ., ,, ?, !, “, „, ), :, –, … -->
     <tag name="SCONJ">59</tag><!-- že, když, jako, protože, aby, než, abych, ať, až, protože %% rozdelena veta -->
     <tag name="SYM">7</tag><!-- ´, %, = -->
@@ -106,7 +106,7 @@
     <feat name="PronType" value="Tot" upos="ADV,AUX,DET,NUM,PRON">33</feat><!-- všechno, všechny, všichni, vše, všech, vždy, jemi $ beru jako zřejmé, že má být "je mi" a určuji jako sloveso, obou, samy, samého -->
     <feat name="Reflex" value="Yes" upos="ADP,DET,PRON">234</feat><!-- se, si, svou, sebe, své, sobě, svoje, svými, sebou, svém -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,DET,INTJ,NOUN,PART">13</feat><!-- jo, naší, teda, dni, sanitku, středoŠKOCKY, super, ty, vajíčko, visoky -->
-    <feat name="Style" value="Expr" upos="PROPN">1</feat><!-- Ševcová -->
+    <feat name="Style" value="Expr" upos="ADJ">1</feat><!-- Ševcová -->
     <feat name="Style" value="Vrnc" upos="NOUN">1</feat><!-- babičky -->
     <feat name="Tense" value="Fut" upos="AUX,X">45</feat><!-- budu, bude, Za třicet let mi bude, budete, Bud, bde, budeme, nebude -->
     <feat name="Tense" value="Past" upos="ADV,AUX,NOUN,VERB">463</feat><!-- byl, bylo, byla, měla, chtěla, byli, začala, narodila, chtěl, měli -->
@@ -123,20 +123,20 @@
     <dep name="acl">4</dep>
     <dep name="advcl">10</dep>
     <dep name="advcl:pred">9</dep>
-    <dep name="advmod">565</dep>
-    <dep name="advmod:emph">107</dep>
+    <dep name="advmod">566</dep>
+    <dep name="advmod:emph">106</dep>
     <dep name="amod">735</dep>
     <dep name="appos">3</dep>
     <dep name="aux">276</dep>
     <dep name="aux:pass">13</dep>
     <dep name="case">981</dep>
     <dep name="cc">3</dep>
-    <dep name="ccomp">8</dep>
+    <dep name="ccomp">9</dep>
     <dep name="clf">1</dep>
     <dep name="compound">1</dep>
     <dep name="conj">3</dep>
     <dep name="cop">360</dep>
-    <dep name="dep">108</dep>
+    <dep name="dep">107</dep>
     <dep name="det">294</dep>
     <dep name="det:numgov">22</dep>
     <dep name="det:nummod">2</dep>
@@ -145,7 +145,7 @@
     <dep name="expl:pass">15</dep>
     <dep name="expl:pv">159</dep>
     <dep name="flat">4</dep>
-    <dep name="iobj">34</dep>
+    <dep name="iobj">33</dep>
     <dep name="mark">57</dep>
     <dep name="nmod">448</dep>
     <dep name="nsubj">641</dep>
@@ -155,7 +155,7 @@
     <dep name="obj">520</dep>
     <dep name="obl">723</dep>
     <dep name="obl:agent">1</dep>
-    <dep name="obl:arg">80</dep>
+    <dep name="obl:arg">81</dep>
     <dep name="parataxis">8</dep>
     <dep name="punct">1655</dep>
     <dep name="root">1643</dep>
