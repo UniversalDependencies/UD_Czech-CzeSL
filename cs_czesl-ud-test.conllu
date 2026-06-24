@@ -437,7 +437,7 @@
 2	,	,	PUNCT	Z:-------------	_	6	punct	_	_
 3	že	že	SCONJ	J,-------------	_	6	mark	_	_
 4	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
-5	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
+5	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	6	amod	_	_
 6	jazyk	jazyk	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	ccomp	_	_
 
 # sent_id = a-AA_BE_002-d1p1s0
@@ -733,7 +733,7 @@
 7	nebezpečná	bezpečný	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	0	root	_	_
 8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	_
 9	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
-10	každého	každý	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	_	_
+10	každého	každý	DET	AAMS2----1A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	11	amod	_	_
 11	obyvatele	obyvatel	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	7	punct	_	_
 
@@ -1023,7 +1023,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	6	obl	_	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
-4	každém	každý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
+4	každém	každý	DET	AAIS6----1A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	5	amod	_	_
 5	kroku	krok	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 6	můžu	moci	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	poznávat	poznávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
@@ -1178,7 +1178,7 @@
 
 # sent_id = a-AA_MU_001-d1p3s6
 # text = Každy rok mnoho lidí přijdou o život v autonehodách.
-1	Každy	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každy	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 3	mnoho	mnoho	DET	Ca--1----------	Case=Nom|NumType=Card|PronType=Ind	4	det:numgov	_	_
 4	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -5427,7 +5427,7 @@
 1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
 2	horách	hora	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
 3	nemusí	muset	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	_	_
+4	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	3	nsubj	_	_
 5	sjíždět	sjíždět	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	xcomp	_	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
 7	sjezdovku	sjezdovka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
@@ -7208,7 +7208,7 @@
 
 # sent_id = a-HRD_1Q_177-d1p4s1
 # text = Každy můžet stratit kobelku.
-1	Každy	každý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+1	Každy	každý	DET	AAMS1----1A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	nsubj	_	_
 2	můžet	moci	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	stratit	ztratit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
 4	kobelku	kabelka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
@@ -7875,7 +7875,7 @@
 
 # sent_id = a-HRD_2C_215-d1p3s0
 # text = Každé prázdniny jsme jezdili na brigádu k Černému moři sbírat ovoce.
-1	Každé	každý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	_	_
+1	Každé	každý	DET	AAFP4----1A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	prázdniny	prázdniny	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 3	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	jezdili	jezdit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -8278,7 +8278,7 @@
 # sent_id = a-HRD_2L_233-d1p1s3
 # text = Skoro káždy den volám doma.
 1	Skoro	skoro	ADV	Db-------------	Degree=Pos|Polarity=Pos	4	advmod	_	_
-2	káždy	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
+2	káždy	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	3	amod	_	_
 3	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 4	volám	volat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	doma	doma	ADV	Db-------------	Degree=Pos|Polarity=Pos	4	advmod	_	SpaceAfter=No
@@ -8301,7 +8301,7 @@
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 5	jiných	jiný	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	6	amod	_	_
 6	zemích	země	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	10	advcl:pred	_	_
-7	každý	každý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
+7	každý	každý	DET	AAIS1----1A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	8	amod	_	_
 8	život	život	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	rozmanitější	rozmanitý	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
@@ -8608,7 +8608,7 @@
 # sent_id = a-HRD_2R_275-d1p2s39
 # text = Maminka každý den chodit osm kilometr.
 1	Maminka	maminka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
+2	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	3	amod	_	_
 3	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 4	chodit	chodit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
 5	osm	osm	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	_
@@ -9613,7 +9613,7 @@
 
 # sent_id = a-HRD_AK_102-d1p2s1
 # text = Každej den mě bavi.
-1	Každej	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každej	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obj	_	_
 4	bavi	bavit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -10055,7 +10055,7 @@
 
 # sent_id = a-HRD_AS_193-d1p4s2
 # text = Každý den pracuje pilne.
-1	Každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 3	pracuje	pracovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	pilne	pilně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	_	SpaceAfter=No
@@ -11169,7 +11169,7 @@
 
 # sent_id = a-HRD_CV_291-d1p2s17
 # text = Každá země stojí za návštěvu.
-1	Každá	každý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každá	každý	DET	AAFS1----1A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	země	země	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	stojí	stát	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
@@ -11322,7 +11322,7 @@
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
 6	praci	práce	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
 7	juu	juu	INTJ	II-------------	_	6	discourse	_	_
-8	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+8	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	9	amod	_	_
 9	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	6	punct	_	_
 
@@ -11570,7 +11570,7 @@
 7	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	_	_
 8	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 9	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	_	_
-10	každého	každý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	obl	_	_
+10	každého	každý	DET	AAIS2----1A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	11	obl	_	_
 11	svoje	svůj	DET	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	11	punct	_	_
 
@@ -11657,7 +11657,7 @@
 1	Se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	3	case	_	_
 2	svou	svůj	DET	P8FS7---------1	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
 3	kamarádkou	kamarádka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
-4	každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
+4	každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	5	amod	_	_
 5	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 6	travila	trávit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	několik	několik	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	8	det:numgov	_	_
@@ -12046,7 +12046,7 @@
 # sent_id = a-HRD_F5_353-d1p3s1
 # text = Pro každého človeka má něco.
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
-2	každého	každý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	_	_
+2	každého	každý	DET	AANS2----1A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|PronType=Tot	3	amod	_	_
 3	človeka	človeka	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
 4	má	mít	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	něco	něco	PRON	PZ--4----------	Case=Acc|PronType=Ind	4	obj	_	SpaceAfter=No
@@ -12364,7 +12364,7 @@
 
 # sent_id = a-HRD_F5_378-d1p3s3
 # text = Každé léto chodím do Řecka.
-1	Každé	každý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každé	každý	DET	AANS1----1A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	léto	léto	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	_
 3	chodím	chodit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
@@ -13129,7 +13129,7 @@
 
 # sent_id = a-HRD_IA_035-d1p5s1
 # text = Každý den budil by mě šum mořských vln.
-1	Každý	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každý	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 3	budil	budit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	3	aux	_	_
@@ -14020,7 +14020,7 @@
 
 # sent_id = a-HRD_JJ_213-d1p2s6
 # text = Každy den učime se po tři hodiny.
-1	Každy	každý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+1	Každy	každý	DET	AAIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	2	amod	_	_
 2	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 3	učime	učit	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	_
@@ -14101,7 +14101,7 @@
 # sent_id = a-HRD_JJ_342-d1p2s0
 # text = Pro každého člověka je různý uspěch.
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
-2	každého	každý	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
+2	každého	každý	DET	AAMS4----1A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	3	amod	_	_
 3	člověka	člověk	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
 4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	různý	různý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_
@@ -14589,7 +14589,7 @@
 # text = Zdaleka ne každé velkoměsto nabízí k odpočinku tak hezky zařízené pláže přímo nedaleko centra.
 1	Zdaleka	zdaleka	ADV	Db-------------	Degree=Pos|Polarity=Pos	4	advmod:emph	_	_
 2	ne	ne	PART	TT-------------	_	4	advmod:emph	_	_
-3	každé	každý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	_
+3	každé	každý	DET	AANS1----1A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|PronType=Tot	4	amod	_	_
 4	velkoměsto	velkoměsto	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	nabízí	nabízet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	7	case	_	_

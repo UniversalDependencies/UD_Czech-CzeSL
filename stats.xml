@@ -15,12 +15,12 @@
   <fusions unique="3" /><!-- aby, Abych, zač -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">960</tag><!-- český, rád, velký, dobrý, první, každý, důležitý, hezký, krásný, zajímavý -->
+    <tag name="ADJ">938</tag><!-- český, rád, velký, dobrý, první, důležitý, hezký, krásný, zajímavý, malý -->
     <tag name="ADP">980</tag><!-- v, na, do, s, z, pro, o, od, za, po -->
     <tag name="ADV">709</tag><!-- moc, už, také, proč, tak, hodně, dobře, ještě, tady, velmi -->
     <tag name="AUX">708</tag><!-- být -->
     <tag name="CCONJ">14</tag><!-- i, ani, a, krát -->
-    <tag name="DET">464</tag><!-- můj, ten, svůj, všechen, tento, mnoho, takový, jeho, samý, hodně -->
+    <tag name="DET">486</tag><!-- můj, ten, svůj, každý, všechen, tento, mnoho, takový, jeho, samý -->
     <tag name="INTJ">17</tag><!-- ahoj, Aha, fakt, haló, he-he-he, jo, juu, nashledanou, nazdar, né -->
     <tag name="NOUN">2014</tag><!-- rok, město, život, den, rodina, republika, člověk, jazyk, práce, země -->
     <tag name="NUM">291</tag><!-- jeden, 2, 1, dva, 3, tři, 20, 6, XXX, osm -->
@@ -51,7 +51,7 @@
     <feat name="Case" value="Voc" upos="NOUN">4</feat><!-- pani, pane, živote -->
     <feat name="ConjType" value="Oper" upos="CCONJ">1</feat><!-- krát -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">36</feat><!-- víc, lepší, lepši, starší, Dál, Dříve, Hlubší, NEJDŮLEŽITĚJŠÍ, Nejhustější, Vce -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">1256</feat><!-- moc, už, taky, českou, hodně, české, pak, ještě, velmi, dobře -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">1234</feat><!-- moc, už, taky, českou, hodně, české, pak, ještě, velmi, dobře -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">65</feat><!-- nejhorší, nejdůležitější, nejlepší, největší, nejstarší, nejoblíbenější, největších, Nejdelší, Nejdříve, Nejdůležitejší -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,NOUN,PROPN,X">16</feat><!-- Choř{l|t}ica, Hodná, Marbella, Mongolska, Muzeum, NAADAM, Portlandě, UNESCO, diploma, důležite -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1457</feat><!-- praze, rodina, českou, Eva, republiku, české, Praha, ČR, země, republice -->
@@ -104,7 +104,7 @@
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">18</feat><!-- nic, nikdy, nikdo, ničem, n{ě|i}čím, Žadné, žadnou -->
     <feat name="PronType" value="Prs" upos="DET,PRON">660</feat><!-- se, moje, mi, ja, mě, můj, já, si, nás, svou -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- Což -->
-    <feat name="PronType" value="Tot" upos="ADV,DET,NUM">46</feat><!-- vždycky, všechno, všechny, všichni, vše, všech, vždy, každy, každý, obou -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,NUM">68</feat><!-- každý, vždycky, každy, všechno, všechny, každého, všichni, každé, vše, všech -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">243</feat><!-- se, si, svou, sebe, své, sobě, svoje, svými, svůj, sebou -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,DET,INTJ,NOUN,PART">13</feat><!-- jo, naší, teda, dni, sanitku, středoŠKOCKY, super, ty, vajíčko, visoky -->
     <feat name="Style" value="Expr" upos="ADJ">1</feat><!-- Ševcová -->
