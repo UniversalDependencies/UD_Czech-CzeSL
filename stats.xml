@@ -34,14 +34,15 @@
     <tag name="X">4</tag><!-- XXX, _, img, pl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="84">
+  <feats unique="85">
     <feat name="Abbr" value="Yes" upos="ADJ,NOUN,PROPN,X">40</feat><!-- ČR, km, UK, FF, A, ABC, DARKHAN, KYB, KyB, NAADAM -->
     <feat name="AdpType" value="Prep" upos="ADP">925</feat><!-- v, na, do, s, pro, z, o, od, za, po -->
     <feat name="AdpType" value="Voc" upos="ADP">52</feat><!-- ve, se, ze, ke -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">419</feat><!-- Adam, byli, lidi, autor, lidé, lidí, pan, měli, oni, bratra -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PROPN,VERB">1122</feat><!-- den, život, životě, rok, čas, roky, jeden, měsíc, nejhorší, první -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">777</feat><!-- mám, bych, má, by, mít, měla, chci, chtěla, bydlím, líbí -->
-    <feat name="Aspect" value="Perf" upos="ADJ,VERB">227</feat><!-- začala, narodila, narodil, stal, Zkusím, koupit, naučit, rozhodl, učila, vratila -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">845</feat><!-- mám, bych, má, by, mít, měla, chci, chtěla, bydlím, líbí -->
+    <feat name="Aspect" value="Imp,Perf" upos="VERB">17</feat><!-- jmenuje, jmenuj, jimenuje, jmenuise, koumonikovat -->
+    <feat name="Aspect" value="Perf" upos="ADJ,VERB">289</feat><!-- začala, narodila, narodil, stal, Popiš, Zkusím, koupit, naučit, rozhodl, učila -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1358</feat><!-- se, na, pro, mě, den, v, za, českou, republiku, co -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">181</feat><!-- mi, si, k, kvůli, mu, jí, mně, ke, oproti, sobě -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">838</feat><!-- do, z, let, od, u, Prahy, bez, nás, roku, Mongolska -->
