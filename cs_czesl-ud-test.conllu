@@ -220,7 +220,7 @@
 # sent_id = a-BRY_A1_001-d1p1s3
 # text = pak pojedu Na navštěvu k příbuzým.
 1	pak	pak	ADV	Db-------------	Degree=Pos|Polarity=Pos	2	advmod	_	_
-2	pojedu	jet	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	pojedu	jet	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
 4	navštěvu	navštěva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 5	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	6	case	_	_
@@ -2377,7 +2377,7 @@
 
 # sent_id = a-BRY_A1_001-d1p3s6
 # text = pojedu do práce autobusem.
-1	pojedu	jet	VERB	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+1	pojedu	jet	VERB	VB-S---1F-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 2	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
 3	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
 4	autobusem	autobus	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
@@ -3046,7 +3046,7 @@
 # sent_id = a-BRY_A9_001-d1p2s19
 # text = Vce žiyou v Vietnamu.
 1	Vce	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	2	advmod	_	_
-2	žiyou	žít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	žiyou	žít	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
 4	Vietnamu	Vietnam	PROPN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
@@ -13484,7 +13484,7 @@
 # sent_id = a-HRD_IE_366-d1p2s7
 # text = Třeba pojedu do Alexandrie.
 1	Třeba	třeba	ADV	Db-------------	Degree=Pos|Polarity=Pos	2	advmod:emph	_	_
-2	pojedu	jet	VERB	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	pojedu	jet	VERB	VB-S---1F-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 3	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
 4	Alexandrie	Alexandrie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	_	_
