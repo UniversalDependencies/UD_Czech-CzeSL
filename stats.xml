@@ -34,7 +34,7 @@
     <tag name="X">4</tag><!-- XXX, _, img, pl -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="85">
+  <feats unique="86">
     <feat name="Abbr" value="Yes" upos="ADJ,NOUN,PROPN,X">40</feat><!-- ČR, km, UK, FF, A, ABC, DARKHAN, KYB, KyB, NAADAM -->
     <feat name="AdpType" value="Prep" upos="ADP">925</feat><!-- v, na, do, s, pro, z, o, od, za, po -->
     <feat name="AdpType" value="Voc" upos="ADP">52</feat><!-- ve, se, ze, ke -->
@@ -118,6 +118,7 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">1173</feat><!-- je, jsem, mám, jsme, jsou, budu, bych, má, bude, by -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">179</feat><!-- mít, být, studovat, mit, chodit, dělat, pracovat, spát, vařit, bydlet -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">492</feat><!-- byl, bylo, byla, měla, chtěla, byli, začala, narodila, chtěl, měli -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">35</feat><!-- cestování, oddělení, vzdělání, Usnesení, cesování, cvičení, nadělení, oblačení, oddělního, panování -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,VERB">1609</feat><!-- je, jsem, mám, jsme, byl, jsou, budu, bylo, byla, má -->
     <feat name="Voice" value="Pass" upos="ADJ">21</feat><!-- pána, řečeno, Rano, obnovován, plno, prozářeno, přinucen, připraven, přípraven, rozluštěn -->
   </feats>
